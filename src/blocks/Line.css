@@ -1,5 +1,5 @@
-.line {
-  
+.line.E-W{
+  display:flex;
 }
 
 .line .cell {

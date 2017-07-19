@@ -6,9 +6,12 @@ import PropTypes from 'prop-types';
 
 export default Block(class Square extends Component {
 
+  static orientations = ['N']
+
   static propTypes = {
     x: PropTypes.number,
-    y: PropTypes.number
+    y: PropTypes.number,
+    orientation: PropTypes.string
   }
 
   static getCoordinates(x, y) {
