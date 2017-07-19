@@ -11,14 +11,6 @@ export default Block(class Square extends Component {
     y: PropTypes.number
   }
 
-  static get width() {
-    return 2;
-  }
-
-  static get height() {
-    return 2;
-  }
-
   static getCoordinates(x, y) {
     return [{x, y}, {x, y: y + 1}, {x: x + 1, y}, {x: x+1, y: y+1}];
   }

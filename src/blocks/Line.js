@@ -11,14 +11,6 @@ class Line extends Component {
     y: PropTypes.number
   }
 
-  static get width() {
-    return 1;
-  }
-
-  static get height() {
-    return 4;
-  }
-
   static getCoordinates(x, y) {
     return [{x, y}, {x, y: y + 1}, {x, y: y + 2}, {x, y: y + 3}];
   }

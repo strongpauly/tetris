@@ -20,7 +20,7 @@ export default function(WrappedBlock) {
     constructor(props) {
       super(props);
       this.state = {
-        x: 5 - (Math.floor(WrappedBlock.width / 2)),
+        x: 5 - (Math.floor(this.getBounds(WrappedBlock.getCoordinates(0, 5)).width / 2)),
         y: 0,
         moving: true,
         rotated: false
@@ -55,7 +55,7 @@ export default function(WrappedBlock) {
         this.drop();
       } else if(e.key === 'ArrowLeft') {
         let x = this.state.x - 1;
-        if(!this.willCollide(x, this.state.y)) {
+        if(!this.willCollide(WrappedBlock.getCoordinates(x, this.state.y))) {
           if(x < 0) {
             x = 0;
           }
@@ -65,8 +65,9 @@ export default function(WrappedBlock) {
         }
       } else if(e.key === 'ArrowRight') {
         let x = this.state.x + 1;
-        if(!this.willCollide(x, this.state.y)) {
-          const maxWidth = 10 - WrappedBlock.width;
+        let blockCoords = WrappedBlock.getCoordinates(x, this.state.y);
+        if(!this.willCollide(blockCoords)) {
+          const maxWidth = 9 - this.getBounds(blockCoords).width;
           if(x > maxWidth) {
             x = maxWidth;
           }
@@ -82,18 +83,39 @@ export default function(WrappedBlock) {
       }
     }
 
-    willCollide(x, y) {
-      return willCollide(this.props.collisionGrid, WrappedBlock.getCoordinates(x, y));
+    willCollide(cells) {
+      return willCollide(this.props.collisionGrid, cells);
+    }
+
+    getBounds(cells) {
+      let bounds = cells.reduce( (bounds, coord) => {
+        return {
+          minX : Math.min(bounds.minX, coord.x),
+          minY : Math.min(bounds.minY, coord.y),
+          maxX : Math.max(bounds.maxX, coord.x),
+          maxY : Math.max(bounds.maxY, coord.y)
+        };
+      }, {
+        minX: Number.POSITIVE_INFINITY,
+        minY: Number.POSITIVE_INFINITY,
+        maxX: Number.NEGATIVE_INFINITY,
+        maxY: Number.NEGATIVE_INFINITY,
+      });
+      bounds.height = bounds.maxY - bounds.minY;
+      bounds.width = bounds.maxX - bounds.minX;
+      return bounds;
     }
 
     drop = () => {
       let newY = this.state.y + 1;
       let moving = this.state.moving;
-      if(this.willCollide(this.state.x, newY)) {
+      let blockCoords = WrappedBlock.getCoordinates(this.state.x, newY);
+      let height = this.getBounds(blockCoords).height;
+      if(this.willCollide(blockCoords)) {
         newY = this.state.y;
         moving = false;
         this.stopMoving(this.state.x, newY);
-      } else if(newY === 20 - WrappedBlock.height) {
+      } else if(newY === 19 - height) {
         this.stopMoving(this.state.x, newY);
         moving = false;
       }
@@ -105,7 +127,9 @@ export default function(WrappedBlock) {
     }
 
     render() {
-      return (<div className="block" style={{left: this.state.x * blockSize, top: this.state.y * blockSize}}><WrappedBlock x={this.state.x} y={this.state.y}/></div>);
+      return (<div className="block" style={{left: this.state.x * blockSize, top: this.state.y * blockSize}}>
+        <WrappedBlock x={this.state.x} y={this.state.y} rotated={this.state.rotated}/>
+      </div>);
     }
   };
 }
