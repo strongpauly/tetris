@@ -1,19 +1,26 @@
 
 import React, { Component } from 'react';
 import './Line.css';
+import Block from './Block';
+import PropTypes from 'prop-types';
 
-export default class Line extends Component {
+class Line extends Component {
 
-  get width() {
+  static propTypes = {
+    x: PropTypes.number,
+    y: PropTypes.number
+  }
+
+  static get width() {
     return 1;
   }
 
-  get height() {
+  static get height() {
     return 4;
   }
 
-  getCoordinates(x, y) {
-    return [{x, y}, {x, y: y + 1}, {x, y: y + 2}, {x, y: y+3}];
+  static getCoordinates(x, y) {
+    return [{x, y}, {x, y: y + 1}, {x, y: y + 2}, {x, y: y + 3}];
   }
 
   render() {
@@ -31,3 +38,5 @@ export default class Line extends Component {
     );
   }
 }
+
+export default Block(Line);

@@ -1,18 +1,25 @@
 
 import React, { Component } from 'react';
 import './Square.css';
+import Block from './Block';
+import PropTypes from 'prop-types';
 
-export default class Square extends Component {
+export default Block(class Square extends Component {
 
-  get width() {
+  static propTypes = {
+    x: PropTypes.number,
+    y: PropTypes.number
+  }
+
+  static get width() {
     return 2;
   }
 
-  get height() {
+  static get height() {
     return 2;
   }
 
-  getCoordinates(x, y) {
+  static getCoordinates(x, y) {
     return [{x, y}, {x, y: y + 1}, {x: x + 1, y}, {x: x+1, y: y+1}];
   }
 
@@ -34,4 +41,4 @@ export default class Square extends Component {
       </div>
     );
   }
-}
+});
