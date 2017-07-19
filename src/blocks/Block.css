@@ -1,0 +1,11 @@
+.cell {
+  border-width: 2px;
+  border-style: outset;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+}
+
+.block {
+  position:relative;
+}

@@ -1,0 +1,7 @@
+.row {
+  display:flex;
+}
+
+.square .cell {
+  background-color: #f11;
+}
