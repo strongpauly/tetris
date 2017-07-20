@@ -61,8 +61,19 @@ export default function(getCoordinates, orientations, cellClassName) {
         let newOrientation = orientations[(orientations.indexOf(this.state.orientation) + 1) % orientations.length];
         let blockCoords = getCoordinates(this.state.x, this.state.y, newOrientation);
         let bounds = this.getBounds(blockCoords);
-        if(!this.willCollide(blockCoords) && bounds.minX > 0 && bounds.maxX < 9) {
-          this.setState({orientation: newOrientation});
+        const newState = {orientation: newOrientation};
+        if(bounds.minX < 0) {
+          blockCoords = getCoordinates(-bounds.minX, this.state.y, newOrientation);
+          newState.x = -bounds.minX;
+          bounds = this.getBounds(blockCoords, bounds);
+        }
+        const maxX = gameWidth - 1;
+        if(bounds.maxX > maxX) {
+          blockCoords = getCoordinates(newState.x = this.state.x - (bounds.maxX - maxX), this.state.y, newOrientation);
+          bounds = this.getBounds(blockCoords);
+        }
+        if(!this.willCollide(blockCoords) && bounds.minX >= 0 && bounds.maxX <= maxX) {
+          this.setState(newState);
         }
       } else if(e.key === 'ArrowDown') {
         this.drop();
