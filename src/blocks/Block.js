@@ -8,7 +8,7 @@ import willCollide from '../lib/willCollide';
 
 const blockSize = 25;
 
-export default function(WrappedBlock) {
+export default function(getCoordinates, orientations, cellClassName) {
   return class Block extends Component {
 
     static propTypes = {
@@ -19,9 +19,9 @@ export default function(WrappedBlock) {
 
     constructor(props) {
       super(props);
-      let orientation = WrappedBlock.orientations[0];
+      let orientation = orientations[0];
       this.state = {
-        x: 5 - (Math.floor(this.getBounds(WrappedBlock.getCoordinates(0, 5, orientation)).width / 2)),
+        x: 5 - (Math.floor(this.getBounds(getCoordinates(0, 5, orientation)).width / 2)),
         y: 0,
         moving: true,
         orientation: orientation
@@ -45,14 +45,14 @@ export default function(WrappedBlock) {
       clearInterval(this.dropInterval);
       document.removeEventListener('keydown', this.onKeyDown);
       if(this.props.onStopMoving !== undefined) {
-        this.props.onStopMoving(WrappedBlock.getCoordinates(x, y, this.state.orientation));
+        this.props.onStopMoving(getCoordinates(x, y, this.state.orientation));
       }
     }
 
     onKeyDown = (e) => {
       if(e.key === 'ArrowUp') {
-        let newOrientation = WrappedBlock.orientations[(WrappedBlock.orientations.indexOf(this.state.orientation) + 1) % WrappedBlock.orientations.length];
-        let blockCoords = WrappedBlock.getCoordinates(this.state.x, this.state.y, newOrientation);
+        let newOrientation = orientations[(orientations.indexOf(this.state.orientation) + 1) % orientations.length];
+        let blockCoords = getCoordinates(this.state.x, this.state.y, newOrientation);
         let bounds = this.getBounds(blockCoords);
         if(!this.willCollide(blockCoords) && bounds.minX > 0 && bounds.maxX < 9) {
           this.setState({orientation: newOrientation});
@@ -61,7 +61,7 @@ export default function(WrappedBlock) {
         this.drop();
       } else if(e.key === 'ArrowLeft') {
         let x = this.state.x - 1;
-        if(!this.willCollide(WrappedBlock.getCoordinates(x, this.state.y, this.state.orientation))) {
+        if(!this.willCollide(getCoordinates(x, this.state.y, this.state.orientation))) {
           if(x < 0) {
             x = 0;
           }
@@ -71,7 +71,7 @@ export default function(WrappedBlock) {
         }
       } else if(e.key === 'ArrowRight') {
         let x = this.state.x + 1;
-        let blockCoords = WrappedBlock.getCoordinates(x, this.state.y, this.state.orientation);
+        let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
         if(!this.willCollide(blockCoords)) {
           const maxWidth = 9 - this.getBounds(blockCoords).width;
           if(x > maxWidth) {
@@ -115,7 +115,7 @@ export default function(WrappedBlock) {
     drop = () => {
       let newY = this.state.y + 1;
       let moving = this.state.moving;
-      let blockCoords = WrappedBlock.getCoordinates(this.state.x, newY, this.state.orientation);
+      let blockCoords = getCoordinates(this.state.x, newY, this.state.orientation);
       let height = this.getBounds(blockCoords).height;
       if(this.willCollide(blockCoords)) {
         newY = this.state.y;
@@ -133,8 +133,11 @@ export default function(WrappedBlock) {
     }
 
     render() {
-      return (<div className="block" style={{left: this.state.x * blockSize, top: this.state.y * blockSize}}>
-        <WrappedBlock x={this.state.x} y={this.state.y} orientation={this.state.orientation}/>
+      return (<div className="block" style={{left: this.state.x * blockSize, top: this.state.y * blockSize}}>{
+        getCoordinates(0, 0, this.state.orientation).map( (coord, index) =>
+          <div key={index} className={'cell ' + cellClassName} style={{left:coord.x * blockSize, top: coord.y * blockSize}}/>
+        )
+      }
       </div>);
     }
   };

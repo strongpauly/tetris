@@ -5,3 +5,15 @@
   flex-direction: column;
   align-items: center;
 }
+
+.square.cell {
+  background-color: #f11;
+}
+
+.line.cell {
+  background-color: #1f1;
+}
+
+.ell.cell {
+  background-color: #11f;
+}
