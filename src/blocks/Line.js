@@ -11,5 +11,4 @@ function getCoordinates(x, y, orientation) {
   ;
 }
 
-
 export default Block(getCoordinates, orientations, 'line');

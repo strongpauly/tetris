@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import Square from './blocks/Square';
 import Line from './blocks/Line';
 import Ell from './blocks/Ell';
+import Rell from './blocks/Rell';
+import Ess from './blocks/Ess';
+import Ress from './blocks/Ress';
 
 import './Game.css';
 import {connect} from 'react-redux';
@@ -43,13 +46,23 @@ class Game extends Component {
               case 'SQUARE' :
                 BlockType = Square;
                 break;
-              default:
               case 'LINE' :
                 BlockType = Line;
                 break;
               case 'ELL' :
                 BlockType = Ell;
                 break;
+              case 'RELL' :
+                BlockType = Rell;
+                break;
+              case 'ESS' :
+                BlockType = Ess;
+                break;
+              case 'RESS' :
+                BlockType = Ress;
+                break;
+              default:
+                return null;
             }
             return <BlockType key={index}
               type={block.type} x={block.x} y={block.y}
