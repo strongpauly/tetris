@@ -61,10 +61,8 @@ export default function(getCoordinates, orientations, cellClassName) {
         this.drop();
       } else if(e.key === 'ArrowLeft') {
         let x = this.state.x - 1;
-        if(!this.willCollide(getCoordinates(x, this.state.y, this.state.orientation))) {
-          if(x < 0) {
-            x = 0;
-          }
+        let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
+        if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).minX >= 0) {
           this.setState({
             x: x
           });
@@ -72,11 +70,7 @@ export default function(getCoordinates, orientations, cellClassName) {
       } else if(e.key === 'ArrowRight') {
         let x = this.state.x + 1;
         let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
-        if(!this.willCollide(blockCoords)) {
-          const maxWidth = 9 - this.getBounds(blockCoords).width;
-          if(x > maxWidth) {
-            x = maxWidth;
-          }
+        if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).maxX <= 9) {
           this.setState({
             x: x
           });
@@ -116,12 +110,12 @@ export default function(getCoordinates, orientations, cellClassName) {
       let newY = this.state.y + 1;
       let moving = this.state.moving;
       let blockCoords = getCoordinates(this.state.x, newY, this.state.orientation);
-      let height = this.getBounds(blockCoords).height;
+      let bounds = this.getBounds(blockCoords);
       if(this.willCollide(blockCoords)) {
         newY = this.state.y;
         moving = false;
         this.stopMoving(this.state.x, newY);
-      } else if(newY === 19 - height) {
+      } else if(bounds.maxY === 19) {
         this.stopMoving(this.state.x, newY);
         moving = false;
       }
