@@ -5,31 +5,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-.square.cell {
-  background-color: #f11;
-}
-
-.line.cell {
-  background-color: #1f1;
-}
-
-.ell.cell {
-  background-color: #11f;
-}
-
-.rell.cell {
-  background-color: #1ff;
-}
-
-.ress.cell {
-  background-color: #f1f;
-}
-
-.ess.cell {
-  background-color: #ff1;
-}
-
-.tee.cell {
-  background-color: #cc1;
-}

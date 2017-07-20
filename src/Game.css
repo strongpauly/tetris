@@ -1,7 +1,50 @@
 .game {
+  position: absolute;
+  top: 0px;
+  display: flex;
+}
+
+.area {
   width: 250px;
   height: 500px;
   border: 1px solid black;
-  position: absolute;
-  top: 0px;
+}
+
+.score {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.score .block {
+  position:relative;
+}
+
+.square.cell {
+  background-color: #f11;
+}
+
+.line.cell {
+  background-color: #1f1;
+}
+
+.ell.cell {
+  background-color: #11f;
+}
+
+.rell.cell {
+  background-color: #1ff;
+}
+
+.ress.cell {
+  background-color: #f1f;
+}
+
+.ess.cell {
+  background-color: #ff1;
+}
+
+.tee.cell {
+  background-color: #cc1;
 }

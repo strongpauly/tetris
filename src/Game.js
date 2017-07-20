@@ -41,53 +41,76 @@ class Game extends Component {
     this.props.dispatch(startGame());
   }
 
+  getBlockType(block) {
+    switch (block) {
+      case 'SQUARE' :
+        return Square;
+      case 'LINE' :
+        return Line;
+      case 'ELL' :
+        return Ell;
+      case 'RELL' :
+        return Rell;
+      case 'ESS' :
+        return Ess;
+      case 'RESS' :
+        return Ress;
+      case 'TEE' :
+        return Tee;
+      default:
+        return null;
+    }
+  }
+
   render() {
     const block = this.props.blocks[0];
     if(!block) {
       return null;
     }
-    let BlockType;
-    switch (block) {
-      case 'SQUARE' :
-        BlockType = Square;
-        break;
-      case 'LINE' :
-        BlockType = Line;
-        break;
-      case 'ELL' :
-        BlockType = Ell;
-        break;
-      case 'RELL' :
-        BlockType = Rell;
-        break;
-      case 'ESS' :
-        BlockType = Ess;
-        break;
-      case 'RESS' :
-        BlockType = Ress;
-        break;
-      case 'TEE' :
-        BlockType = Tee;
-        break;
-      default:
-        return null;
-    }
+    const BlockType = this.getBlockType(block);
+    const NextBlockType = this.getBlockType(this.props.blocks[1]);
     return (
       <div className="game">
-        <BlockType
-          key={this.props.score.numBlocks /* Uniquely identify block to force redraw */}
-          blockId={this.props.score.numBlocks}
-          onStopMoving={this.onBlockStop}
-          collisionMap={this.props.collisionMap}
-        />
-        {
-          Object.keys(this.props.collisionMap).map( (key, index) => {
-            const split = key.split(',');
-            const x = Number(split[0]);
-            const y = Number(split[1]);
-            return <div key={index} className={'cell ' + this.props.collisionMap[key]} style={{left:x * blockSize, top: y * blockSize}}></div>;
-          })
-        }
+        <div className="area">
+          <BlockType
+            key={this.props.score.numBlocks /* Uniquely identify block to force redraw */}
+            blockId={this.props.score.numBlocks}
+            onStopMoving={this.onBlockStop}
+            collisionMap={this.props.collisionMap}
+            level={this.props.score.level}
+            moving={true}
+          />
+          {
+            Object.keys(this.props.collisionMap).map( (key, index) => {
+              const split = key.split(',');
+              const x = Number(split[0]);
+              const y = Number(split[1]);
+              return <div key={index} className={'cell ' + this.props.collisionMap[key]} style={{left:x * blockSize, top: y * blockSize}}></div>;
+            })
+          }
+        </div>
+        <div className="score">
+          <table>
+            <tbody>
+              <tr>
+                <td>Lines</td>
+                <td>{this.props.score.numLines}</td>
+              </tr>
+              <tr>
+                <td>Level</td>
+                <td>{this.props.score.level}</td>
+              </tr>
+              <tr>
+                <td>Score</td>
+                <td>{this.props.score.score}</td>
+              </tr>
+              <tr>
+                <td>Next</td>
+                <td><NextBlockType key={this.props.score.numBlocks + 1 /* Uniquely identify block to force redraw */}/></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     );
   }

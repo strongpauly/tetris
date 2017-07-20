@@ -13,6 +13,10 @@ class App extends Component {
         </div>
       </Provider>
     );
+
+    // <audio autoPlay loop>
+    //   <source src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg" type="audio/ogg"/>
+    // </audio>
   }
 }
 

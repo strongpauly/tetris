@@ -14,7 +14,9 @@ export default function(getCoordinates, orientations, cellClassName) {
     static propTypes = {
       blockId: PropTypes.number,
       onStopMoving: PropTypes.func,
-      collisionMap: PropTypes.object
+      collisionMap: PropTypes.object,
+      level: PropTypes.number,
+      moving: PropTypes.bool
     }
 
     constructor(props) {
@@ -23,13 +25,15 @@ export default function(getCoordinates, orientations, cellClassName) {
       this.state = {
         x: 5 - (Math.floor(this.getBounds(getCoordinates(0, 5, orientation)).width / 2)),
         y: 0,
-        moving: true,
+        moving: this.props.moving,
         orientation: orientation
       };
     }
 
     componentWillMount() {
-      this.startMoving();
+      if(this.state.moving) {
+        this.startMoving();
+      }
     }
 
     componentWillUnmount() {
@@ -37,7 +41,7 @@ export default function(getCoordinates, orientations, cellClassName) {
     }
 
     startMoving() {
-      this.dropInterval = setInterval(this.drop, 1000);
+      this.dropInterval = setInterval(this.drop, 1100 - this.props.level * 100);
       document.addEventListener('keydown', this.onKeyDown);
     }
 
@@ -148,7 +152,12 @@ export default function(getCoordinates, orientations, cellClassName) {
     }
 
     render() {
-      return (<div className="block" style={{left: this.state.x * blockSize, top: this.state.y * blockSize}}>{
+      const style = {};
+      if(this.state.moving) {
+        style.left = this.state.x * blockSize;
+        style.top = this.state.y * blockSize;
+      }
+      return (<div className="block" style={style}>{
         getCoordinates(0, 0, this.state.orientation).map( (coord, index) =>
           <div key={index} className={'cell ' + cellClassName} style={{left:coord.x * blockSize, top: coord.y * blockSize}}/>
         )

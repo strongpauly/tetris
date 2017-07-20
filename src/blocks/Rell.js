@@ -9,7 +9,7 @@ function getCoordinates(x, y, orientation) {
     //  X
     // XX
     case 'N' :
-      return [{x: x + 1, y: y - 1}, {x : x + 1, y: y}, {x, y: y + 1}, {x: x + 1, y: y + 1}];
+      return [{x: x + 1, y: y}, {x : x + 1, y: y + 1}, {x, y: y + 2}, {x: x + 1, y: y + 2}];
     // X
     // XXX
     case 'E' :
