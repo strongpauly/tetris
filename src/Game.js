@@ -14,10 +14,13 @@ import {connect} from 'react-redux';
 import startGame from './state/actions/startGame';
 import stopGame from './state/actions/stopGame';
 import blockStop from './state/actions/blockStop';
+import removeLines from './state/actions/removeLines';
 
 import willCollide from './lib/willCollide';
 
 import PropTypes from 'prop-types';
+
+import {blockSize, gameWidth} from './dimensions';
 
 class Game extends Component {
 
@@ -65,11 +68,11 @@ class Game extends Component {
       default:
         return null;
     }
-    const blockSize = 25;
     return (
       <div className="game">
         <BlockType
-          key={this.props.score.numBlocks}
+          key={this.props.score.numBlocks /* Uniquely identify block to force redraw */}
+          blockId={this.props.score.numBlocks}
           onStopMoving={this.onBlockStop}
           collisionMap={this.props.collisionMap}
         />
@@ -91,8 +94,22 @@ class Game extends Component {
       this.props.dispatch(stopGame());
     } else {
       this.props.dispatch(blockStop(cells));
+      //Check for full lines.
+      const lines = [];
+      Object.keys(this.props.collisionMap).forEach( (key) => {
+        const split = key.split(',');
+        const x = Number(split[0]);
+        const y = Number(split[1]);
+        const line = lines[y] || (lines[y] = []);
+        line[x] = y;
+      });
+      const fullLines = lines.filter( line => line !== undefined && line.filter( cell => cell !== undefined).length === gameWidth);
+      if(fullLines.length > 0) {
+        const lineNumbers = fullLines.map( line => line[0] );
+        lineNumbers.sort((a, b) => a - b);
+        this.props.dispatch(removeLines(lineNumbers));
+      }
     }
-
   }
 }
 

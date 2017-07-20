@@ -6,12 +6,13 @@ import PropTypes from 'prop-types';
 
 import willCollide from '../lib/willCollide';
 
-const blockSize = 25;
+import {blockSize, gameWidth, gameHeight} from '../dimensions';
 
 export default function(getCoordinates, orientations, cellClassName) {
   return class Block extends Component {
 
     static propTypes = {
+      blockId: PropTypes.number,
       onStopMoving: PropTypes.func,
       collisionMap: PropTypes.object
     }
@@ -32,7 +33,7 @@ export default function(getCoordinates, orientations, cellClassName) {
     }
 
     componentWillUnmount() {
-
+      this.tidy();
     }
 
     startMoving() {
@@ -40,9 +41,16 @@ export default function(getCoordinates, orientations, cellClassName) {
       document.addEventListener('keydown', this.onKeyDown);
     }
 
-    stopMoving(x, y) {
-      clearInterval(this.dropInterval);
+    tidy() {
+      if(this.dropInterval !== undefined) {
+        clearInterval(this.dropInterval);
+        delete this.dropInterval;
+      }
       document.removeEventListener('keydown', this.onKeyDown);
+    }
+
+    stopMoving(x, y) {
+      this.tidy();
       if(this.props.onStopMoving !== undefined) {
         this.props.onStopMoving(getCoordinates(x, y, this.state.orientation).map(coord => ({x: coord.x, y: coord.y, className: cellClassName})));
       }
@@ -69,12 +77,13 @@ export default function(getCoordinates, orientations, cellClassName) {
       } else if(e.key === 'ArrowRight') {
         let x = this.state.x + 1;
         let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
-        if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).maxX <= 9) {
+        if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).maxX < gameWidth) {
           this.setState({
             x: x
           });
         }
       } else if (e.code === 'Space'){
+        this.tidy();
         let moving = this.state.moving;
         while(moving) {
           moving = this.drop();
@@ -114,7 +123,7 @@ export default function(getCoordinates, orientations, cellClassName) {
         newY = this.state.y;
         moving = false;
         this.stopMoving(this.state.x, newY);
-      } else if(bounds.maxY === 19) {
+      } else if(bounds.maxY === gameHeight - 1) {
         this.stopMoving(this.state.x, newY);
         moving = false;
       }
