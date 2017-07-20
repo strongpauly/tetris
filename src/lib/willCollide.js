@@ -1,6 +1,4 @@
 
-export default function(collisionGrid, blockCells) {
-  return collisionGrid.some( (row, y) => row.some((full, x) => {
-    return blockCells.some( cell => full && cell.x === x && cell.y === y );
-  }));
+export default function(collisionMap, blockCells) {
+  return blockCells.some( cell => collisionMap.hasOwnProperty(cell.x + ',' + cell.y));
 }

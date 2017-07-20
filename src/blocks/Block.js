@@ -12,9 +12,8 @@ export default function(getCoordinates, orientations, cellClassName) {
   return class Block extends Component {
 
     static propTypes = {
-      type: PropTypes.string,
       onStopMoving: PropTypes.func,
-      collisionGrid: PropTypes.array
+      collisionMap: PropTypes.object
     }
 
     constructor(props) {
@@ -33,7 +32,7 @@ export default function(getCoordinates, orientations, cellClassName) {
     }
 
     componentWillUnmount() {
-      this.stopTimer();
+
     }
 
     startMoving() {
@@ -45,7 +44,7 @@ export default function(getCoordinates, orientations, cellClassName) {
       clearInterval(this.dropInterval);
       document.removeEventListener('keydown', this.onKeyDown);
       if(this.props.onStopMoving !== undefined) {
-        this.props.onStopMoving(getCoordinates(x, y, this.state.orientation));
+        this.props.onStopMoving(getCoordinates(x, y, this.state.orientation).map(coord => ({x: coord.x, y: coord.y, className: cellClassName})));
       }
     }
 
@@ -84,7 +83,7 @@ export default function(getCoordinates, orientations, cellClassName) {
     }
 
     willCollide(cells) {
-      return willCollide(this.props.collisionGrid, cells);
+      return willCollide(this.props.collisionMap, cells);
     }
 
     getBounds(cells) {
@@ -119,10 +118,12 @@ export default function(getCoordinates, orientations, cellClassName) {
         this.stopMoving(this.state.x, newY);
         moving = false;
       }
-      this.setState({
-        y: newY,
-        moving: moving
-      });
+      if(moving) {
+        this.setState({
+          y: newY,
+          moving: moving
+        });
+      }
       return moving;
     }
 

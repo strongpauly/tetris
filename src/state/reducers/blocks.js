@@ -2,17 +2,16 @@
 const blockTypes = ['SQUARE', 'LINE', 'ELL', 'ESS', 'RELL', 'RESS'];
 
 function createBlock() {
-  return {
-    type: blockTypes[Math.floor(Math.random() * blockTypes.length)],
-    y: 0
-  };
+  return blockTypes[Math.floor(Math.random() * blockTypes.length)];
 }
 
 export default function(blocks=[], action) {
   if(action.type === 'START') {
-    blocks = [createBlock()];
+    //Current and next to be shown.
+    blocks = [createBlock(), createBlock()];
   } else if (action.type === 'BLOCK_STOP') {
-    blocks = blocks.concat(createBlock());
+    //Remove the first one and add a new one.
+    blocks = blocks.slice(1).concat(createBlock());
   }
   return blocks;
 }

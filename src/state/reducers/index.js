@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux';
+import score from './score';
 import blocks from './blocks';
-import collisionGrid from './collisionGrid';
+import collisionMap from './collisionMap';
 
 export default combineReducers({
+  score,
   blocks,
-  collisionGrid
+  collisionMap
 });

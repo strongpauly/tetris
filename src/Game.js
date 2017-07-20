@@ -24,7 +24,8 @@ class Game extends Component {
   static propTypes = {
     dispatch: PropTypes.func,
     blocks: PropTypes.array,
-    collisionGrid: PropTypes.array
+    collisionMap: PropTypes.object,
+    score: PropTypes.object
   }
 
   constructor(props) {
@@ -37,39 +38,47 @@ class Game extends Component {
   }
 
   render() {
+    const block = this.props.blocks[0];
+    if(!block) {
+      return null;
+    }
+    let BlockType;
+    switch (block) {
+      case 'SQUARE' :
+        BlockType = Square;
+        break;
+      case 'LINE' :
+        BlockType = Line;
+        break;
+      case 'ELL' :
+        BlockType = Ell;
+        break;
+      case 'RELL' :
+        BlockType = Rell;
+        break;
+      case 'ESS' :
+        BlockType = Ess;
+        break;
+      case 'RESS' :
+        BlockType = Ress;
+        break;
+      default:
+        return null;
+    }
+    const blockSize = 25;
     return (
       <div className="game">
+        <BlockType
+          key={this.props.score.numBlocks}
+          onStopMoving={this.onBlockStop}
+          collisionMap={this.props.collisionMap}
+        />
         {
-          this.props.blocks.map( (block, index) => {
-            let BlockType;
-            switch (block.type) {
-              case 'SQUARE' :
-                BlockType = Square;
-                break;
-              case 'LINE' :
-                BlockType = Line;
-                break;
-              case 'ELL' :
-                BlockType = Ell;
-                break;
-              case 'RELL' :
-                BlockType = Rell;
-                break;
-              case 'ESS' :
-                BlockType = Ess;
-                break;
-              case 'RESS' :
-                BlockType = Ress;
-                break;
-              default:
-                return null;
-            }
-            return <BlockType key={index}
-              type={block.type} x={block.x} y={block.y}
-              current={index === this.props.blocks.length - 1}
-              onStopMoving={this.onBlockStop}
-              collisionGrid={this.props.collisionGrid}
-            />;
+          Object.keys(this.props.collisionMap).map( (key, index) => {
+            const split = key.split(',');
+            const x = Number(split[0]);
+            const y = Number(split[1]);
+            return <div key={index} className={'cell ' + this.props.collisionMap[key]} style={{left:x * blockSize, top: y * blockSize}}></div>;
           })
         }
       </div>
@@ -78,7 +87,7 @@ class Game extends Component {
 
   onBlockStop = (cells) => {
     //If the block is stopping somewhere that is already collided - then the game is over.
-    if(willCollide(this.props.collisionGrid, cells)) {
+    if(willCollide(this.props.collisionMap, cells)) {
       this.props.dispatch(stopGame());
     } else {
       this.props.dispatch(blockStop(cells));
@@ -88,8 +97,9 @@ class Game extends Component {
 }
 
 export default connect((state, gameProps = {}) => {
+  gameProps.score = state.score;
   gameProps.blocks = state.blocks;
-  gameProps.collisionGrid = state.collisionGrid;
+  gameProps.collisionMap = state.collisionMap;
   return gameProps;
 })(Game);
 
