@@ -1,5 +1,5 @@
 
-const blockTypes = ['SQUARE', 'LINE', 'ELL', 'ESS', 'RELL', 'RESS'];
+const blockTypes = ['SQUARE', 'LINE', 'ELL', 'ESS', 'RELL', 'RESS', 'TEE'];
 
 function createBlock() {
   return blockTypes[Math.floor(Math.random() * blockTypes.length)];

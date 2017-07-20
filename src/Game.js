@@ -6,6 +6,7 @@ import Ell from './blocks/Ell';
 import Rell from './blocks/Rell';
 import Ess from './blocks/Ess';
 import Ress from './blocks/Ress';
+import Tee from './blocks/Tee';
 
 import './Game.css';
 import {connect} from 'react-redux';
@@ -64,6 +65,9 @@ class Game extends Component {
         break;
       case 'RESS' :
         BlockType = Ress;
+        break;
+      case 'TEE' :
+        BlockType = Tee;
         break;
       default:
         return null;
