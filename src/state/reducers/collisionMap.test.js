@@ -74,6 +74,15 @@ describe('collisionMap', () => {
     expect(map).toEqual({'0,2' : 'test'});
   });
 
+  it('wont move cells down when multiple lines are removed above it', () => {
+    let map = collisionMap(undefined, startGame());
+    map = collisionMap(map, blockStop([{x:0, y:0, className:'test'}, {x:1, y:0, className:'test'}, {x:0, y:1, className:'test'}]));
+    expect(Object.keys(map).length).toEqual(3);
+    map = collisionMap(map, removeLines([0]));
+    expect(Object.keys(map).length).toEqual(1);
+    expect(map).toEqual({'0,1' : 'test'});
+  });
+
   it('will fill grid when game stops', () => {
     let map = collisionMap(undefined, startGame());
     map = collisionMap(map, stopGame());
