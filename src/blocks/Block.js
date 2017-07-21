@@ -138,8 +138,8 @@ export default function(getCoordinates, orientations, cellClassName) {
         newY = this.state.y;
         moving = false;
         this.stopMoving(this.state.x, newY);
-      } else if(bounds.maxY === gameHeight - 1) {
-        this.stopMoving(this.state.x, newY);
+      } else if(bounds.maxY === gameHeight) {
+        this.stopMoving(this.state.x, newY - 1);
         moving = false;
       }
       if(moving) {
