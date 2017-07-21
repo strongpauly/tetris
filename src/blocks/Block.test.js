@@ -19,7 +19,7 @@ describe('Block', () => {
 
     it('can drop to bottom', () => {
       const onStopMoving = jest.fn();
-      const ell = mount(<Line collisionMap={{}} onStopMoving={onStopMoving}/>);
+      const ell = mount(<Line collisionMap={{}} onStopMoving={onStopMoving} moving={true}/>);
       triggerKeyEvent(ell, {code:'Space'});
       expect(onStopMoving).toHaveBeenCalledTimes(1);
       const expectedResult = [16, 17, 18, 19].map( y => ({y, x: 5, className:'line'}));

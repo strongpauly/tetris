@@ -2,7 +2,7 @@
   "name": "tetris",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://paul.potsides.com/tetris",
+  "homepage": "http://paul.potsides.com/tetris",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10",
     "react-test-renderer": "^15.6.1"
@@ -20,6 +21,18 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/build/**",
+      "!**/coverage/**",
+      "!**/src/index.js",
+      "!**/src/registerServiceWorker.js"
+    ],
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
   }
 }

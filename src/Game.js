@@ -23,7 +23,7 @@ import PropTypes from 'prop-types';
 
 import {blockSize, gameWidth} from './dimensions';
 
-class Game extends Component {
+export class Game extends Component {
 
   static propTypes = {
     dispatch: PropTypes.func,
@@ -43,6 +43,7 @@ class Game extends Component {
 
   getBlockType(block) {
     switch (block) {
+      default:
       case 'SQUARE' :
         return Square;
       case 'LINE' :
@@ -57,22 +58,19 @@ class Game extends Component {
         return Ress;
       case 'TEE' :
         return Tee;
-      default:
-        return null;
     }
   }
 
   render() {
-    const block = this.props.blocks[0];
-    if(!block) {
+    if(!this.props.blocks || !this.props.blocks.length) {
       return null;
     }
-    const BlockType = this.getBlockType(block);
-    const NextBlockType = this.getBlockType(this.props.blocks[1]);
+    const CurrentBlock = this.getBlockType(this.props.blocks[0]);
+    const NextBlock = this.getBlockType(this.props.blocks[1]);
     return (
       <div className="game">
         <div className="area">
-          <BlockType
+          <CurrentBlock
             key={this.props.score.numBlocks /* Uniquely identify block to force redraw */}
             blockId={this.props.score.numBlocks}
             onStopMoving={this.onBlockStop}
@@ -106,7 +104,7 @@ class Game extends Component {
               </tr>
               <tr>
                 <td>Next</td>
-                <td><NextBlockType key={this.props.score.numBlocks + 1 /* Uniquely identify block to force redraw */}/></td>
+                <td><NextBlock key={this.props.score.numBlocks + 1 /* Uniquely identify block to force redraw */}/></td>
               </tr>
             </tbody>
           </table>
@@ -120,6 +118,7 @@ class Game extends Component {
     if(willCollide(this.props.collisionMap, cells)) {
       this.props.dispatch(stopGame());
     } else {
+      //Will update collisionMap synchronously
       this.props.dispatch(blockStop(cells));
       //Check for full lines.
       const lines = [];
