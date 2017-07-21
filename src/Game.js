@@ -42,8 +42,8 @@ export class Game extends Component {
   }
 
   getBlockType(block) {
+    // eslint-disable-next-line default-case
     switch (block) {
-      default:
       case 'SQUARE' :
         return Square;
       case 'LINE' :
