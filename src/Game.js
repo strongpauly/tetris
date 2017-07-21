@@ -69,23 +69,25 @@ export class Game extends Component {
     const NextBlock = this.getBlockType(this.props.blocks[1]);
     return (
       <div className="game">
-        <div className="area">
-          <CurrentBlock
-            key={this.props.score.numBlocks /* Uniquely identify block to force redraw */}
-            blockId={this.props.score.numBlocks}
-            onStopMoving={this.onBlockStop}
-            collisionMap={this.props.collisionMap}
-            level={this.props.score.level}
-            moving={true}
-          />
-          {
-            Object.keys(this.props.collisionMap).map( (key, index) => {
-              const split = key.split(',');
-              const x = Number(split[0]);
-              const y = Number(split[1]);
-              return <div key={index} className={'cell ' + this.props.collisionMap[key]} style={{left:x * blockSize, top: y * blockSize}}></div>;
-            })
-          }
+        <div className="border">
+          <div className="area">
+            <CurrentBlock
+              key={this.props.score.numBlocks /* Uniquely identify block to force redraw */}
+              blockId={this.props.score.numBlocks}
+              onStopMoving={this.onBlockStop}
+              collisionMap={this.props.collisionMap}
+              level={this.props.score.level}
+              moving={true}
+            />
+            {
+              Object.keys(this.props.collisionMap).map( (key, index) => {
+                const split = key.split(',');
+                const x = Number(split[0]);
+                const y = Number(split[1]);
+                return <div key={index} className={'cell ' + this.props.collisionMap[key]} style={{left:x * blockSize, top: y * blockSize}}></div>;
+              })
+            }
+          </div>
         </div>
         <div className="score">
           <table>

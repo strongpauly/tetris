@@ -1,13 +1,17 @@
 .game {
-  position: absolute;
   top: 0px;
   display: flex;
+  position: absolute;
 }
 
 .area {
   width: 250px;
   height: 500px;
-  border: 1px solid black;
+  position: relative;
+}
+
+.border {
+  border: 3px outset;
 }
 
 .score {

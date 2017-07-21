@@ -23,62 +23,66 @@ exports[`<Game> can be lost 1`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={0}
-        collisionMap={Object {}}
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
-            Object {
-              "left": 125,
-              "top": 0,
-            }
-          }
+        <Block
+          blockId={0}
+          collisionMap={Object {}}
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
+                "left": 125,
                 "top": 0,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
-            }
-          />
-        </div>
-      </Block>
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+      </div>
     </div>
     <div
       className="score"
@@ -196,105 +200,109 @@ exports[`<Game> can be lost 2`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={1}
-        collisionMap={
-          Object {
-            "5,16": "line",
-            "5,17": "line",
-            "5,18": "line",
-            "5,19": "line",
-          }
-        }
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
+        <Block
+          blockId={1}
+          collisionMap={
             Object {
-              "left": 125,
-              "top": 0,
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
             }
           }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
+                "left": 125,
                 "top": 0,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
             }
-          />
-        </div>
-      </Block>
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 400,
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
           }
-        }
-      />
+        />
+      </div>
     </div>
     <div
       className="score"
@@ -416,145 +424,149 @@ exports[`<Game> can be lost 3`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={2}
-        collisionMap={
-          Object {
-            "5,12": "line",
-            "5,13": "line",
-            "5,14": "line",
-            "5,15": "line",
-            "5,16": "line",
-            "5,17": "line",
-            "5,18": "line",
-            "5,19": "line",
-          }
-        }
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
+        <Block
+          blockId={2}
+          collisionMap={
             Object {
-              "left": 125,
-              "top": 0,
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
             }
           }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
+                "left": 125,
                 "top": 0,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
             }
-          />
-        </div>
-      </Block>
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 400,
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 300,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 325,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 350,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 375,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
           }
-        }
-      />
+        />
+      </div>
     </div>
     <div
       className="score"
@@ -680,185 +692,189 @@ exports[`<Game> can be lost 4`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={3}
-        collisionMap={
-          Object {
-            "5,10": "line",
-            "5,11": "line",
-            "5,12": "line",
-            "5,13": "line",
-            "5,14": "line",
-            "5,15": "line",
-            "5,16": "line",
-            "5,17": "line",
-            "5,18": "line",
-            "5,19": "line",
-            "5,8": "line",
-            "5,9": "line",
-          }
-        }
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
+        <Block
+          blockId={3}
+          collisionMap={
             Object {
-              "left": 125,
-              "top": 0,
+              "5,10": "line",
+              "5,11": "line",
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+              "5,8": "line",
+              "5,9": "line",
             }
           }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
+                "left": 125,
                 "top": 0,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
             }
-          />
-        </div>
-      </Block>
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 400,
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 300,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 325,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 350,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 375,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 200,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 200,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 225,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 225,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 250,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 250,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 275,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 275,
+            }
           }
-        }
-      />
+        />
+      </div>
     </div>
     <div
       className="score"
@@ -988,225 +1004,229 @@ exports[`<Game> can be lost 5`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={4}
-        collisionMap={
-          Object {
-            "5,10": "line",
-            "5,11": "line",
-            "5,12": "line",
-            "5,13": "line",
-            "5,14": "line",
-            "5,15": "line",
-            "5,16": "line",
-            "5,17": "line",
-            "5,18": "line",
-            "5,19": "line",
-            "5,4": "line",
-            "5,5": "line",
-            "5,6": "line",
-            "5,7": "line",
-            "5,8": "line",
-            "5,9": "line",
-          }
-        }
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
+        <Block
+          blockId={4}
+          collisionMap={
             Object {
-              "left": 125,
-              "top": 0,
+              "5,10": "line",
+              "5,11": "line",
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+              "5,4": "line",
+              "5,5": "line",
+              "5,6": "line",
+              "5,7": "line",
+              "5,8": "line",
+              "5,9": "line",
             }
           }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
+                "left": 125,
                 "top": 0,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
             }
-          />
-        </div>
-      </Block>
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 400,
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 300,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 325,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 350,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 375,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 200,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 200,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 225,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 225,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 250,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 250,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 275,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 275,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 100,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 100,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 125,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 125,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 150,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 150,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 175,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 175,
+            }
           }
-        }
-      />
+        />
+      </div>
     </div>
     <div
       className="score"
@@ -1340,265 +1360,269 @@ exports[`<Game> can be lost 6`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={5}
-        collisionMap={
-          Object {
-            "5,0": "line",
-            "5,1": "line",
-            "5,10": "line",
-            "5,11": "line",
-            "5,12": "line",
-            "5,13": "line",
-            "5,14": "line",
-            "5,15": "line",
-            "5,16": "line",
-            "5,17": "line",
-            "5,18": "line",
-            "5,19": "line",
-            "5,2": "line",
-            "5,3": "line",
-            "5,4": "line",
-            "5,5": "line",
-            "5,6": "line",
-            "5,7": "line",
-            "5,8": "line",
-            "5,9": "line",
-          }
-        }
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
+        <Block
+          blockId={5}
+          collisionMap={
+            Object {
+              "5,0": "line",
+              "5,1": "line",
+              "5,10": "line",
+              "5,11": "line",
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+              "5,2": "line",
+              "5,3": "line",
+              "5,4": "line",
+              "5,5": "line",
+              "5,6": "line",
+              "5,7": "line",
+              "5,8": "line",
+              "5,9": "line",
+            }
+          }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block"
+            style={
+              Object {
+                "left": 125,
+                "top": 0,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
         <div
-          className="block"
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 200,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 225,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 250,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 275,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 100,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 125,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 150,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 175,
+            }
+          }
+        />
+        <div
+          className="cell line"
           style={
             Object {
               "left": 125,
               "top": 0,
             }
           }
-        >
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 0,
-              }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 25,
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
-              }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 50,
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
-              }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 75,
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
-              }
-            }
-          />
-        </div>
-      </Block>
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 400,
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 300,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 325,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 350,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 375,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 200,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 225,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 250,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 275,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 100,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 125,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 150,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 175,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 0,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 25,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 50,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 75,
-          }
-        }
-      />
+        />
+      </div>
     </div>
     <div
       className="score"
@@ -1691,13 +1715,17 @@ exports[`<Game> renders a block 1`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -1741,13 +1769,17 @@ exports[`<Game> renders all block types 1`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -1791,13 +1823,17 @@ exports[`<Game> renders all block types 2`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -1841,13 +1877,17 @@ exports[`<Game> renders all block types 3`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -1891,13 +1931,17 @@ exports[`<Game> renders all block types 4`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -1941,13 +1985,17 @@ exports[`<Game> renders all block types 5`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -1991,13 +2039,17 @@ exports[`<Game> renders all block types 6`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -2041,13 +2093,17 @@ exports[`<Game> renders all block types 7`] = `
   className="game"
 >
   <div
-    className="area"
+    className="border"
   >
-    <Block
-      collisionMap={Object {}}
-      moving={true}
-      onStopMoving={[Function]}
-    />
+    <div
+      className="area"
+    >
+      <Block
+        collisionMap={Object {}}
+        moving={true}
+        onStopMoving={[Function]}
+      />
+    </div>
   </div>
   <div
     className="score"
@@ -2109,62 +2165,66 @@ exports[`<Game> will move blocks to the bottom 1`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={0}
-        collisionMap={Object {}}
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
-            Object {
-              "left": 125,
-              "top": 0,
-            }
-          }
+        <Block
+          blockId={0}
+          collisionMap={Object {}}
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
+                "left": 125,
                 "top": 0,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
-            }
-          />
-        </div>
-      </Block>
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+      </div>
     </div>
     <div
       className="score"
@@ -2275,62 +2335,66 @@ exports[`<Game> will move blocks to the bottom 2`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={0}
-        collisionMap={Object {}}
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
-            Object {
-              "left": 125,
-              "top": 400,
-            }
-          }
+        <Block
+          blockId={0}
+          collisionMap={Object {}}
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
-                "top": 0,
+                "left": 125,
+                "top": 400,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
-            }
-          />
-        </div>
-      </Block>
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+      </div>
     </div>
     <div
       className="score"
@@ -2480,425 +2544,429 @@ exports[`<Game> will remove lines 1`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={0}
-        collisionMap={
-          Object {
-            "0,16": "line",
-            "0,17": "line",
-            "0,18": "line",
-            "0,19": "line",
-            "1,16": "line",
-            "1,17": "line",
-            "1,18": "line",
-            "1,19": "line",
-            "2,16": "line",
-            "2,17": "line",
-            "2,18": "line",
-            "2,19": "line",
-            "3,16": "line",
-            "3,17": "line",
-            "3,18": "line",
-            "3,19": "line",
-            "4,16": "line",
-            "4,17": "line",
-            "4,18": "line",
-            "4,19": "line",
-            "6,16": "line",
-            "6,17": "line",
-            "6,18": "line",
-            "6,19": "line",
-            "7,16": "line",
-            "7,17": "line",
-            "7,18": "line",
-            "7,19": "line",
-            "8,16": "line",
-            "8,17": "line",
-            "8,18": "line",
-            "8,19": "line",
-            "9,16": "line",
-            "9,17": "line",
-            "9,18": "line",
-            "9,19": "line",
-          }
-        }
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
-        <div
-          className="block"
-          style={
+        <Block
+          blockId={0}
+          collisionMap={
             Object {
-              "left": 125,
-              "top": 0,
+              "0,16": "line",
+              "0,17": "line",
+              "0,18": "line",
+              "0,19": "line",
+              "1,16": "line",
+              "1,17": "line",
+              "1,18": "line",
+              "1,19": "line",
+              "2,16": "line",
+              "2,17": "line",
+              "2,18": "line",
+              "2,19": "line",
+              "3,16": "line",
+              "3,17": "line",
+              "3,18": "line",
+              "3,19": "line",
+              "4,16": "line",
+              "4,17": "line",
+              "4,18": "line",
+              "4,19": "line",
+              "6,16": "line",
+              "6,17": "line",
+              "6,18": "line",
+              "6,19": "line",
+              "7,16": "line",
+              "7,17": "line",
+              "7,18": "line",
+              "7,19": "line",
+              "8,16": "line",
+              "8,17": "line",
+              "8,18": "line",
+              "8,19": "line",
+              "9,16": "line",
+              "9,17": "line",
+              "9,18": "line",
+              "9,19": "line",
             }
           }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
         >
           <div
-            className="cell line"
+            className="block"
             style={
               Object {
-                "left": 0,
+                "left": 125,
                 "top": 0,
               }
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
               }
-            }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
               }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 400,
             }
-          />
-        </div>
-      </Block>
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 400,
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 475,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 400,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 400,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 425,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 425,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 450,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 450,
+            }
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 475,
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 475,
+            }
           }
-        }
-      />
+        />
+      </div>
     </div>
     <div
       className="score"
@@ -3052,465 +3120,469 @@ exports[`<Game> will remove lines 2`] = `
     className="game"
   >
     <div
-      className="area"
+      className="border"
     >
-      <Block
-        blockId={0}
-        collisionMap={
-          Object {
-            "0,16": "line",
-            "0,17": "line",
-            "0,18": "line",
-            "0,19": "line",
-            "1,16": "line",
-            "1,17": "line",
-            "1,18": "line",
-            "1,19": "line",
-            "2,16": "line",
-            "2,17": "line",
-            "2,18": "line",
-            "2,19": "line",
-            "3,16": "line",
-            "3,17": "line",
-            "3,18": "line",
-            "3,19": "line",
-            "4,16": "line",
-            "4,17": "line",
-            "4,18": "line",
-            "4,19": "line",
-            "5,16": "line",
-            "5,17": "line",
-            "5,18": "line",
-            "5,19": "line",
-            "6,16": "line",
-            "6,17": "line",
-            "6,18": "line",
-            "6,19": "line",
-            "7,16": "line",
-            "7,17": "line",
-            "7,18": "line",
-            "7,19": "line",
-            "8,16": "line",
-            "8,17": "line",
-            "8,18": "line",
-            "8,19": "line",
-            "9,16": "line",
-            "9,17": "line",
-            "9,18": "line",
-            "9,19": "line",
-          }
-        }
-        level={1}
-        moving={true}
-        onStopMoving={[Function]}
+      <div
+        className="area"
       >
+        <Block
+          blockId={0}
+          collisionMap={
+            Object {
+              "0,16": "line",
+              "0,17": "line",
+              "0,18": "line",
+              "0,19": "line",
+              "1,16": "line",
+              "1,17": "line",
+              "1,18": "line",
+              "1,19": "line",
+              "2,16": "line",
+              "2,17": "line",
+              "2,18": "line",
+              "2,19": "line",
+              "3,16": "line",
+              "3,17": "line",
+              "3,18": "line",
+              "3,19": "line",
+              "4,16": "line",
+              "4,17": "line",
+              "4,18": "line",
+              "4,19": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+              "6,16": "line",
+              "6,17": "line",
+              "6,18": "line",
+              "6,19": "line",
+              "7,16": "line",
+              "7,17": "line",
+              "7,18": "line",
+              "7,19": "line",
+              "8,16": "line",
+              "8,17": "line",
+              "8,18": "line",
+              "8,19": "line",
+              "9,16": "line",
+              "9,17": "line",
+              "9,18": "line",
+              "9,19": "line",
+            }
+          }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block"
+            style={
+              Object {
+                "left": 125,
+                "top": 400,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
         <div
-          className="block"
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 0,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 25,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 50,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 75,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 100,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 150,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 175,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 200,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 225,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
           style={
             Object {
               "left": 125,
               "top": 400,
             }
           }
-        >
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 0,
-              }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 25,
-              }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 50,
-              }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
             }
-          />
-          <div
-            className="cell line"
-            style={
-              Object {
-                "left": 0,
-                "top": 75,
-              }
-            }
-          />
-        </div>
-      </Block>
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 400,
           }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 0,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 25,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 50,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 75,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 100,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 150,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 175,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 200,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 225,
-            "top": 475,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 400,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 425,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 450,
-          }
-        }
-      />
-      <div
-        className="cell line"
-        style={
-          Object {
-            "left": 125,
-            "top": 475,
-          }
-        }
-      />
+        />
+      </div>
     </div>
     <div
       className="score"
