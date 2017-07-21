@@ -1,4 +1,5 @@
 
+import {gameWidth, gameHeight} from '../../dimensions';
 
 export default function(map={}, action) {
   if(action.type === 'START') {
@@ -17,6 +18,14 @@ export default function(map={}, action) {
       if(action.payload.indexOf(y) === -1) {
         newMap[x + ',' + (y + action.payload.reduce((total, lineNumber) => total + (lineNumber > y ? 1 : 0), 0))] = map[key];
       }
+      return newMap;
+    }, {});
+  } else if (action.type === 'STOP') {
+    map = new Array(gameHeight).fill(new Array(gameWidth)).reduce((newMap, row, y) => {
+      row.fill();
+      row.forEach((nada, x) => {
+        newMap[x + ',' + y] = '';
+      });
       return newMap;
     }, {});
   }

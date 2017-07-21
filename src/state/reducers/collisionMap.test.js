@@ -1,8 +1,11 @@
 import collisionMap from './collisionMap';
 
 import startGame from '../actions/startGame';
+import stopGame from '../actions/stopGame';
 import blockStop from '../actions/blockStop';
 import removeLines from '../actions/removeLines';
+
+import {gameWidth, gameHeight} from '../../dimensions';
 
 /*eslint-env jest*/
 
@@ -69,5 +72,11 @@ describe('collisionMap', () => {
     map = collisionMap(map, removeLines([1, 2]));
     expect(Object.keys(map).length).toEqual(1);
     expect(map).toEqual({'0,2' : 'test'});
+  });
+
+  it('will fill grid when game stops', () => {
+    let map = collisionMap(undefined, startGame());
+    map = collisionMap(map, stopGame());
+    expect(Object.keys(map).length).toEqual(gameWidth * gameHeight);
   });
 });

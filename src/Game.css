@@ -21,6 +21,10 @@
   position:relative;
 }
 
+.cell {
+  background-color: #bbb;
+}
+
 .square.cell {
   background-color: #f11;
 }
