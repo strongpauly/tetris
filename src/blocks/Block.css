@@ -9,6 +9,9 @@
 
 .block {
   position:absolute;
+}
+
+.animated {
   transition: left 0.2s, top 0.5s;
   transition-timing-function: ease;
 }

@@ -36,7 +36,7 @@ exports[`<Game> can be lost 1`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -120,7 +120,7 @@ exports[`<Game> can be lost 1`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -220,7 +220,7 @@ exports[`<Game> can be lost 2`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -340,7 +340,7 @@ exports[`<Game> can be lost 2`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -448,7 +448,7 @@ exports[`<Game> can be lost 3`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -604,7 +604,7 @@ exports[`<Game> can be lost 3`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -720,7 +720,7 @@ exports[`<Game> can be lost 4`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -912,7 +912,7 @@ exports[`<Game> can be lost 4`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -1036,7 +1036,7 @@ exports[`<Game> can be lost 5`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -1264,7 +1264,7 @@ exports[`<Game> can be lost 5`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -1396,7 +1396,7 @@ exports[`<Game> can be lost 6`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -1660,7 +1660,7 @@ exports[`<Game> can be lost 6`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -2178,7 +2178,7 @@ exports[`<Game> will move blocks to the bottom 1`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -2262,7 +2262,7 @@ exports[`<Game> will move blocks to the bottom 1`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -2348,7 +2348,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -2432,7 +2432,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -2596,7 +2596,7 @@ exports[`<Game> will remove lines 1`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -3004,7 +3004,7 @@ exports[`<Game> will remove lines 1`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
@@ -3176,7 +3176,7 @@ exports[`<Game> will remove lines 2`] = `
           onStopMoving={[Function]}
         >
           <div
-            className="block"
+            className="block animated"
             style={
               Object {
                 "left": 125,
@@ -3620,7 +3620,7 @@ exports[`<Game> will remove lines 2`] = `
             <td>
               <Block>
                 <div
-                  className="block"
+                  className="block animated"
                   style={Object {}}
                 >
                   <div
