@@ -63,51 +63,15 @@ export default function(getCoordinates, orientations, cellClassName) {
 
     onKeyDown = (e) => {
       if(e.key === 'ArrowUp') {
-        let newOrientation = orientations[(orientations.indexOf(this.state.orientation) + 1) % orientations.length];
-        let blockCoords = getCoordinates(this.state.x, this.state.y, newOrientation);
-        let bounds = this.getBounds(blockCoords);
-        const newState = {orientation: newOrientation, animated:true};
-        if(bounds.minX < 0) {
-          blockCoords = getCoordinates(-bounds.minX, this.state.y, newOrientation);
-          newState.x = -bounds.minX;
-          newState.animated = false;
-          bounds = this.getBounds(blockCoords, bounds);
-        }
-        const maxX = gameWidth - 1;
-        if(bounds.maxX > maxX) {
-          blockCoords = getCoordinates(newState.x = this.state.x - (bounds.maxX - maxX), this.state.y, newOrientation);
-          newState.animated = false;
-          bounds = this.getBounds(blockCoords);
-        }
-        if(!this.willCollide(blockCoords) && bounds.minX >= 0 && bounds.maxX <= maxX) {
-          this.setState(newState);
-        }
+        this.rotate();
       } else if(e.key === 'ArrowDown') {
         this.drop();
       } else if(e.key === 'ArrowLeft') {
-        let x = this.state.x - 1;
-        let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
-        if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).minX >= 0) {
-          this.setState({
-            x: x,
-            animated: true
-          });
-        }
+        this.moveLeft();
       } else if(e.key === 'ArrowRight') {
-        let x = this.state.x + 1;
-        let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
-        if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).maxX < gameWidth) {
-          this.setState({
-            x: x,
-            animated: true
-          });
-        }
+        this.moveRight();
       } else if (e.code === 'Space'){
-        this.tidy();
-        let moving = this.state.moving;
-        while(moving) {
-          moving = this.drop();
-        }
+        this.place();
       }
     }
 
@@ -134,6 +98,36 @@ export default function(getCoordinates, orientations, cellClassName) {
       return bounds;
     }
 
+    rotate() {
+      let newOrientation = orientations[(orientations.indexOf(this.state.orientation) + 1) % orientations.length];
+      let blockCoords = getCoordinates(this.state.x, this.state.y, newOrientation);
+      let bounds = this.getBounds(blockCoords);
+      const newState = {orientation: newOrientation, animated:true};
+      if(bounds.minX < 0) {
+        blockCoords = getCoordinates(-bounds.minX, this.state.y, newOrientation);
+        newState.x = -bounds.minX;
+        newState.animated = false;
+        bounds = this.getBounds(blockCoords, bounds);
+      }
+      const maxX = gameWidth - 1;
+      if(bounds.maxX > maxX) {
+        blockCoords = getCoordinates(newState.x = this.state.x - (bounds.maxX - maxX), this.state.y, newOrientation);
+        newState.animated = false;
+        bounds = this.getBounds(blockCoords);
+      }
+      if(!this.willCollide(blockCoords) && bounds.minX >= 0 && bounds.maxX <= maxX) {
+        this.setState(newState);
+      }
+    }
+
+    place() {
+      this.tidy();
+      let moving = this.state.moving;
+      while(moving) {
+        moving = this.drop();
+      }
+    }
+
     drop = () => {
       let newY = this.state.y + 1;
       let moving = this.state.moving;
@@ -155,6 +149,28 @@ export default function(getCoordinates, orientations, cellClassName) {
         });
       }
       return moving;
+    }
+
+    moveLeft () {
+      let x = this.state.x - 1;
+      let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
+      if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).minX >= 0) {
+        this.setState({
+          x: x,
+          animated: true
+        });
+      }
+    }
+
+    moveRight() {
+      let x = this.state.x + 1;
+      let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
+      if(!this.willCollide(blockCoords) && this.getBounds(blockCoords).maxX < gameWidth) {
+        this.setState({
+          x: x,
+          animated: true
+        });
+      }
     }
 
     render() {
