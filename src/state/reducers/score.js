@@ -3,7 +3,8 @@ const defaultScore = {
   numBlocks: 0,
   numLines: 0,
   level: 1,
-  score: 0
+  score: 0,
+  gameOver: false
 };
 
 export default function(score=null, action) {
@@ -15,6 +16,8 @@ export default function(score=null, action) {
     const numLines = score.numLines + action.payload.length;
     const level = Math.ceil(numLines / 10);
     score = Object.assign({}, score, {numLines: numLines, level: level, score: score.score + action.payload.length * level});
+  } else if (action.type === 'STOP') {
+    score = Object.assign({}, score, {gameOver: true});
   }
   return score;
 }

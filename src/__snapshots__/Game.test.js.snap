@@ -12,6 +12,7 @@ exports[`<Game> can be lost 1`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 0,
       "numLines": 0,
@@ -27,6 +28,7 @@ exports[`<Game> can be lost 1`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={0}
@@ -189,6 +191,7 @@ exports[`<Game> can be lost 2`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 1,
       "numLines": 0,
@@ -204,6 +207,7 @@ exports[`<Game> can be lost 2`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={1}
@@ -413,6 +417,7 @@ exports[`<Game> can be lost 3`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 2,
       "numLines": 0,
@@ -428,6 +433,7 @@ exports[`<Game> can be lost 3`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={2}
@@ -681,6 +687,7 @@ exports[`<Game> can be lost 4`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 3,
       "numLines": 0,
@@ -696,6 +703,7 @@ exports[`<Game> can be lost 4`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={3}
@@ -993,6 +1001,7 @@ exports[`<Game> can be lost 5`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 4,
       "numLines": 0,
@@ -1008,6 +1017,7 @@ exports[`<Game> can be lost 5`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={4}
@@ -1349,6 +1359,7 @@ exports[`<Game> can be lost 6`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 5,
       "numLines": 0,
@@ -1364,6 +1375,7 @@ exports[`<Game> can be lost 6`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={5}
@@ -1719,6 +1731,7 @@ exports[`<Game> renders a block 1`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -1773,6 +1786,7 @@ exports[`<Game> renders all block types 1`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -1827,6 +1841,7 @@ exports[`<Game> renders all block types 2`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -1881,6 +1896,7 @@ exports[`<Game> renders all block types 3`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -1935,6 +1951,7 @@ exports[`<Game> renders all block types 4`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -1989,6 +2006,7 @@ exports[`<Game> renders all block types 5`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -2043,6 +2061,7 @@ exports[`<Game> renders all block types 6`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -2097,6 +2116,7 @@ exports[`<Game> renders all block types 7`] = `
   >
     <div
       className="area"
+      onClick={null}
     >
       <Block
         collisionMap={Object {}}
@@ -2142,7 +2162,7 @@ exports[`<Game> renders all block types 7`] = `
 </div>
 `;
 
-exports[`<Game> will move blocks to the bottom 1`] = `
+exports[`<Game> will can be reset after game over by clicking on area 1`] = `
 <Game
   blocks={
     Array [
@@ -2154,6 +2174,7 @@ exports[`<Game> will move blocks to the bottom 1`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 0,
       "numLines": 0,
@@ -2169,6 +2190,1729 @@ exports[`<Game> will move blocks to the bottom 1`] = `
     >
       <div
         className="area"
+        onClick={null}
+      >
+        <Block
+          blockId={0}
+          collisionMap={Object {}}
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block animated"
+            style={
+              Object {
+                "left": 125,
+                "top": 0,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+      </div>
+    </div>
+    <div
+      className="score"
+    >
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              Lines
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Level
+            </td>
+            <td>
+              1
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Score
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Next
+            </td>
+            <td>
+              <Block>
+                <div
+                  className="block animated"
+                  style={Object {}}
+                >
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 25,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 50,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 75,
+                      }
+                    }
+                  />
+                </div>
+              </Block>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Game>
+`;
+
+exports[`<Game> will can be reset after game over by clicking on area 2`] = `
+<Game
+  blocks={
+    Array [
+      "LINE",
+      "LINE",
+    ]
+  }
+  collisionMap={
+    Object {
+      "5,16": "line",
+      "5,17": "line",
+      "5,18": "line",
+      "5,19": "line",
+    }
+  }
+  dispatch={[Function]}
+  score={
+    Object {
+      "gameOver": false,
+      "level": 1,
+      "numBlocks": 1,
+      "numLines": 0,
+      "score": 0,
+    }
+  }
+>
+  <div
+    className="game"
+  >
+    <div
+      className="border"
+    >
+      <div
+        className="area"
+        onClick={null}
+      >
+        <Block
+          blockId={1}
+          collisionMap={
+            Object {
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+            }
+          }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block animated"
+            style={
+              Object {
+                "left": 125,
+                "top": 0,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="score"
+    >
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              Lines
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Level
+            </td>
+            <td>
+              1
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Score
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Next
+            </td>
+            <td>
+              <Block>
+                <div
+                  className="block animated"
+                  style={Object {}}
+                >
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 25,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 50,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 75,
+                      }
+                    }
+                  />
+                </div>
+              </Block>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Game>
+`;
+
+exports[`<Game> will can be reset after game over by clicking on area 3`] = `
+<Game
+  blocks={
+    Array [
+      "LINE",
+      "LINE",
+    ]
+  }
+  collisionMap={
+    Object {
+      "5,12": "line",
+      "5,13": "line",
+      "5,14": "line",
+      "5,15": "line",
+      "5,16": "line",
+      "5,17": "line",
+      "5,18": "line",
+      "5,19": "line",
+    }
+  }
+  dispatch={[Function]}
+  score={
+    Object {
+      "gameOver": false,
+      "level": 1,
+      "numBlocks": 2,
+      "numLines": 0,
+      "score": 0,
+    }
+  }
+>
+  <div
+    className="game"
+  >
+    <div
+      className="border"
+    >
+      <div
+        className="area"
+        onClick={null}
+      >
+        <Block
+          blockId={2}
+          collisionMap={
+            Object {
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+            }
+          }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block animated"
+            style={
+              Object {
+                "left": 125,
+                "top": 0,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="score"
+    >
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              Lines
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Level
+            </td>
+            <td>
+              1
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Score
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Next
+            </td>
+            <td>
+              <Block>
+                <div
+                  className="block animated"
+                  style={Object {}}
+                >
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 25,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 50,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 75,
+                      }
+                    }
+                  />
+                </div>
+              </Block>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Game>
+`;
+
+exports[`<Game> will can be reset after game over by clicking on area 4`] = `
+<Game
+  blocks={
+    Array [
+      "LINE",
+      "LINE",
+    ]
+  }
+  collisionMap={
+    Object {
+      "5,10": "line",
+      "5,11": "line",
+      "5,12": "line",
+      "5,13": "line",
+      "5,14": "line",
+      "5,15": "line",
+      "5,16": "line",
+      "5,17": "line",
+      "5,18": "line",
+      "5,19": "line",
+      "5,8": "line",
+      "5,9": "line",
+    }
+  }
+  dispatch={[Function]}
+  score={
+    Object {
+      "gameOver": false,
+      "level": 1,
+      "numBlocks": 3,
+      "numLines": 0,
+      "score": 0,
+    }
+  }
+>
+  <div
+    className="game"
+  >
+    <div
+      className="border"
+    >
+      <div
+        className="area"
+        onClick={null}
+      >
+        <Block
+          blockId={3}
+          collisionMap={
+            Object {
+              "5,10": "line",
+              "5,11": "line",
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+              "5,8": "line",
+              "5,9": "line",
+            }
+          }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block animated"
+            style={
+              Object {
+                "left": 125,
+                "top": 0,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 200,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 225,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 250,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 275,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="score"
+    >
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              Lines
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Level
+            </td>
+            <td>
+              1
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Score
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Next
+            </td>
+            <td>
+              <Block>
+                <div
+                  className="block animated"
+                  style={Object {}}
+                >
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 25,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 50,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 75,
+                      }
+                    }
+                  />
+                </div>
+              </Block>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Game>
+`;
+
+exports[`<Game> will can be reset after game over by clicking on area 5`] = `
+<Game
+  blocks={
+    Array [
+      "LINE",
+      "LINE",
+    ]
+  }
+  collisionMap={
+    Object {
+      "5,10": "line",
+      "5,11": "line",
+      "5,12": "line",
+      "5,13": "line",
+      "5,14": "line",
+      "5,15": "line",
+      "5,16": "line",
+      "5,17": "line",
+      "5,18": "line",
+      "5,19": "line",
+      "5,4": "line",
+      "5,5": "line",
+      "5,6": "line",
+      "5,7": "line",
+      "5,8": "line",
+      "5,9": "line",
+    }
+  }
+  dispatch={[Function]}
+  score={
+    Object {
+      "gameOver": false,
+      "level": 1,
+      "numBlocks": 4,
+      "numLines": 0,
+      "score": 0,
+    }
+  }
+>
+  <div
+    className="game"
+  >
+    <div
+      className="border"
+    >
+      <div
+        className="area"
+        onClick={null}
+      >
+        <Block
+          blockId={4}
+          collisionMap={
+            Object {
+              "5,10": "line",
+              "5,11": "line",
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+              "5,4": "line",
+              "5,5": "line",
+              "5,6": "line",
+              "5,7": "line",
+              "5,8": "line",
+              "5,9": "line",
+            }
+          }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block animated"
+            style={
+              Object {
+                "left": 125,
+                "top": 0,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 200,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 225,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 250,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 275,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 100,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 125,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 150,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 175,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="score"
+    >
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              Lines
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Level
+            </td>
+            <td>
+              1
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Score
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Next
+            </td>
+            <td>
+              <Block>
+                <div
+                  className="block animated"
+                  style={Object {}}
+                >
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 25,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 50,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 75,
+                      }
+                    }
+                  />
+                </div>
+              </Block>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Game>
+`;
+
+exports[`<Game> will can be reset after game over by clicking on area 6`] = `
+<Game
+  blocks={
+    Array [
+      "LINE",
+      "LINE",
+    ]
+  }
+  collisionMap={
+    Object {
+      "5,0": "line",
+      "5,1": "line",
+      "5,10": "line",
+      "5,11": "line",
+      "5,12": "line",
+      "5,13": "line",
+      "5,14": "line",
+      "5,15": "line",
+      "5,16": "line",
+      "5,17": "line",
+      "5,18": "line",
+      "5,19": "line",
+      "5,2": "line",
+      "5,3": "line",
+      "5,4": "line",
+      "5,5": "line",
+      "5,6": "line",
+      "5,7": "line",
+      "5,8": "line",
+      "5,9": "line",
+    }
+  }
+  dispatch={[Function]}
+  score={
+    Object {
+      "gameOver": false,
+      "level": 1,
+      "numBlocks": 5,
+      "numLines": 0,
+      "score": 0,
+    }
+  }
+>
+  <div
+    className="game"
+  >
+    <div
+      className="border"
+    >
+      <div
+        className="area"
+        onClick={null}
+      >
+        <Block
+          blockId={5}
+          collisionMap={
+            Object {
+              "5,0": "line",
+              "5,1": "line",
+              "5,10": "line",
+              "5,11": "line",
+              "5,12": "line",
+              "5,13": "line",
+              "5,14": "line",
+              "5,15": "line",
+              "5,16": "line",
+              "5,17": "line",
+              "5,18": "line",
+              "5,19": "line",
+              "5,2": "line",
+              "5,3": "line",
+              "5,4": "line",
+              "5,5": "line",
+              "5,6": "line",
+              "5,7": "line",
+              "5,8": "line",
+              "5,9": "line",
+            }
+          }
+          level={1}
+          moving={true}
+          onStopMoving={[Function]}
+        >
+          <div
+            className="block animated"
+            style={
+              Object {
+                "left": 125,
+                "top": 0,
+              }
+            }
+          >
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 25,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 50,
+                }
+              }
+            />
+            <div
+              className="cell line"
+              style={
+                Object {
+                  "left": 0,
+                  "top": 75,
+                }
+              }
+            />
+          </div>
+        </Block>
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 400,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 425,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 450,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 475,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 300,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 325,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 350,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 375,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 200,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 225,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 250,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 275,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 100,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 125,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 150,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 175,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 0,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 25,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 50,
+            }
+          }
+        />
+        <div
+          className="cell line"
+          style={
+            Object {
+              "left": 125,
+              "top": 75,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="score"
+    >
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              Lines
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Level
+            </td>
+            <td>
+              1
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Score
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Next
+            </td>
+            <td>
+              <Block>
+                <div
+                  className="block animated"
+                  style={Object {}}
+                >
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 25,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 50,
+                      }
+                    }
+                  />
+                  <div
+                    className="cell line"
+                    style={
+                      Object {
+                        "left": 0,
+                        "top": 75,
+                      }
+                    }
+                  />
+                </div>
+              </Block>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Game>
+`;
+
+exports[`<Game> will move blocks to the bottom 1`] = `
+<Game
+  blocks={
+    Array [
+      "LINE",
+      "LINE",
+    ]
+  }
+  collisionMap={Object {}}
+  dispatch={[Function]}
+  score={
+    Object {
+      "gameOver": false,
+      "level": 1,
+      "numBlocks": 0,
+      "numLines": 0,
+      "score": 0,
+    }
+  }
+>
+  <div
+    className="game"
+  >
+    <div
+      className="border"
+    >
+      <div
+        className="area"
+        onClick={null}
       >
         <Block
           blockId={0}
@@ -2324,6 +4068,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 0,
       "numLines": 0,
@@ -2339,6 +4084,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={0}
@@ -2533,6 +4279,7 @@ exports[`<Game> will remove lines 1`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 0,
       "numLines": 0,
@@ -2548,6 +4295,7 @@ exports[`<Game> will remove lines 1`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={0}
@@ -3109,6 +4857,7 @@ exports[`<Game> will remove lines 2`] = `
   dispatch={[Function]}
   score={
     Object {
+      "gameOver": false,
       "level": 1,
       "numBlocks": 0,
       "numLines": 0,
@@ -3124,6 +4873,7 @@ exports[`<Game> will remove lines 2`] = `
     >
       <div
         className="area"
+        onClick={null}
       >
         <Block
           blockId={0}

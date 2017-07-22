@@ -37,7 +37,7 @@ export class Game extends Component {
     this.start();
   }
 
-  start() {
+  start = () => {
     this.props.dispatch(startGame());
   }
 
@@ -70,7 +70,7 @@ export class Game extends Component {
     return (
       <div className="game">
         <div className="border">
-          <div className="area">
+          <div className="area" onClick={this.props.score.gameOver ? this.start : null}>
             <CurrentBlock
               key={this.props.score.numBlocks /* Uniquely identify block to force redraw */}
               blockId={this.props.score.numBlocks}

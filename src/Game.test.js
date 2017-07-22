@@ -127,4 +127,51 @@ describe('<Game>', () => {
     expect(dispatch).toHaveBeenCalledTimes(7);
     expect(dispatch).toHaveBeenCalledWith(stopGame());
   });
+
+  it('will can be reset after game over by clicking on area', () => {
+    jest.useFakeTimers();
+    let collisionMap = collisionMapReducer(undefined, startGame());
+    let score = scoreReducer(undefined, startGame());
+    //Constantly provide lines.
+    const blocks = ['LINE', 'LINE'];
+    const dispatch = jest.fn((action) => {
+      if(action.type === 'BLOCK_STOP' || action.type === 'STOP') {
+        //Replicate what redux would have done?
+        collisionMap = collisionMapReducer(collisionMap, action);
+        score = scoreReducer(score, action);
+        wrapper.setProps({collisionMap, score});
+      }
+    });
+    const wrapper = mount(<Game dispatch={dispatch} blocks={blocks} score={score} collisionMap={collisionMap}/>);
+    expect(wrapper).toMatchSnapshot();
+    expect(dispatch).toHaveBeenLastCalledWith(startGame());
+
+    function dropBlock() {
+      for(let i=0; i <= gameHeight - ((score.numBlocks + 1) * 4); i++) {
+        jest.runTimersToTime(1000);
+      }
+    }
+    dropBlock();
+    expect(wrapper).toMatchSnapshot();
+    expect(dispatch).toHaveBeenCalledTimes(2);
+    dropBlock();
+    expect(wrapper).toMatchSnapshot();
+    expect(dispatch).toHaveBeenCalledTimes(3);
+    dropBlock();
+    expect(wrapper).toMatchSnapshot();
+    expect(dispatch).toHaveBeenCalledTimes(4);
+    dropBlock();
+    expect(wrapper).toMatchSnapshot();
+    expect(dispatch).toHaveBeenCalledTimes(5);
+    dropBlock();
+    expect(wrapper).toMatchSnapshot();
+    expect(dispatch).toHaveBeenCalledTimes(6);
+    jest.runTimersToTime(1000);
+    expect(dispatch).toHaveBeenCalledTimes(7);
+    expect(dispatch).toHaveBeenCalledWith(stopGame());
+
+    wrapper.find('.area').simulate('click');
+    expect(dispatch).toHaveBeenCalledTimes(8);
+    expect(dispatch).toHaveBeenCalledWith(startGame());
+  });
 });
