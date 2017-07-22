@@ -9,21 +9,21 @@ function getCoordinates(x, y, orientation) {
     //  X
     // XXX
     case 'N' :
-      return [{x, y: y + 1}, {x: x + 1, y: y + 1}, {x: x + 1, y: y}, {x: x + 2, y: y + 1}];
+      return [{x: x-1, y: y + 1}, {x: x, y: y + 1}, {x: x, y: y}, {x: x + 1, y: y + 1}];
     // X
     // XX
     // X
     case 'E' :
-      return [{x: x + 1, y:  y - 1}, {x: x + 1, y}, {x: x + 2, y}, {x: x + 1, y: y + 1}];
+      return [{x: x, y:  y}, {x: x, y: y + 1}, {x: x + 1, y: y + 1}, {x: x, y: y + 2}];
     // XXX
     //  X
     case 'S' :
-      return [{x, y}, {x: x + 1, y}, {x: x + 1, y: y + 1}, {x: x + 2, y}];
+      return [{x: x - 1, y: y + 1}, {x: x, y: y + 1}, {x: x, y: y + 2}, {x: x + 1, y : y + 1}];
       //  X
       // XX
       //  X
     case 'W' :
-      return [{x: x + 1, y:  y - 1}, {x: x + 1, y}, {x: x, y}, {x: x + 1, y: y + 1}];
+      return [{x: x, y:  y}, {x: x, y: y + 1}, {x: x - 1, y: y + 1}, {x: x, y: y + 2}];
   }
 }
 

@@ -23,6 +23,7 @@
 
 .score .block {
   position:relative;
+  left: 25px;
 }
 
 .cell {

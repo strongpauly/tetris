@@ -945,6 +945,15 @@ exports[`Block Tee can rotate 1`] = `
     className="cell tee"
     style={
       Object {
+        "left": -25,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
         "left": 0,
         "top": 25,
       }
@@ -954,16 +963,7 @@ exports[`Block Tee can rotate 1`] = `
     className="cell tee"
     style={
       Object {
-        "left": 25,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 25,
+        "left": 0,
         "top": 0,
       }
     }
@@ -972,7 +972,7 @@ exports[`Block Tee can rotate 1`] = `
     className="cell tee"
     style={
       Object {
-        "left": 50,
+        "left": 25,
         "top": 25,
       }
     }
@@ -994,6 +994,15 @@ exports[`Block Tee can rotate 2`] = `
     className="cell tee"
     style={
       Object {
+        "left": -25,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
         "left": 0,
         "top": 25,
       }
@@ -1003,16 +1012,7 @@ exports[`Block Tee can rotate 2`] = `
     className="cell tee"
     style={
       Object {
-        "left": 25,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 25,
+        "left": 0,
         "top": 0,
       }
     }
@@ -1021,7 +1021,7 @@ exports[`Block Tee can rotate 2`] = `
     className="cell tee"
     style={
       Object {
-        "left": 50,
+        "left": 25,
         "top": 25,
       }
     }
@@ -1043,6 +1043,15 @@ exports[`Block Tee can rotate 3`] = `
     className="cell tee"
     style={
       Object {
+        "left": -25,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
         "left": 0,
         "top": 25,
       }
@@ -1052,16 +1061,7 @@ exports[`Block Tee can rotate 3`] = `
     className="cell tee"
     style={
       Object {
-        "left": 25,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 25,
+        "left": 0,
         "top": 0,
       }
     }
@@ -1070,7 +1070,7 @@ exports[`Block Tee can rotate 3`] = `
     className="cell tee"
     style={
       Object {
-        "left": 50,
+        "left": 25,
         "top": 25,
       }
     }
@@ -1092,6 +1092,15 @@ exports[`Block Tee can rotate 4`] = `
     className="cell tee"
     style={
       Object {
+        "left": -25,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
         "left": 0,
         "top": 25,
       }
@@ -1101,16 +1110,7 @@ exports[`Block Tee can rotate 4`] = `
     className="cell tee"
     style={
       Object {
-        "left": 25,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 25,
+        "left": 0,
         "top": 0,
       }
     }
@@ -1119,7 +1119,7 @@ exports[`Block Tee can rotate 4`] = `
     className="cell tee"
     style={
       Object {
-        "left": 50,
+        "left": 25,
         "top": 25,
       }
     }
@@ -1141,6 +1141,15 @@ exports[`Block Tee can rotate 5`] = `
     className="cell tee"
     style={
       Object {
+        "left": -25,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
         "left": 0,
         "top": 25,
       }
@@ -1150,16 +1159,7 @@ exports[`Block Tee can rotate 5`] = `
     className="cell tee"
     style={
       Object {
-        "left": 25,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 25,
+        "left": 0,
         "top": 0,
       }
     }
@@ -1168,7 +1168,7 @@ exports[`Block Tee can rotate 5`] = `
     className="cell tee"
     style={
       Object {
-        "left": 50,
+        "left": 25,
         "top": 25,
       }
     }
