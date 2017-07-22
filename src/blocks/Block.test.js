@@ -91,7 +91,7 @@ describe('Block', () => {
   });
 
   it('can rotate at the far left', () => {
-    const ell = shallow(<Ess collisionMap={{}} onStopMoving={jest.fn()} moving={true}/>);
+    const ell = shallow(<Line collisionMap={{}} onStopMoving={jest.fn()} moving={true}/>);
     expect(ell.state('orientation')).toEqual('N-S');
     expect(ell.find('.animated')).toHaveLength(1);
     triggerKeyEvent(ell, {key:'ArrowLeft'});

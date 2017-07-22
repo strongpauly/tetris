@@ -10,7 +10,7 @@ function getCoordinates(x, y, orientation) {
       //  X
       // XX
       // X
-      return [{x:x + 1, y}, {x, y: y + 1}, {x: x + 1, y: y + 1}, {x, y: y + 2}];
+      return [{x:x, y}, {x: x - 1, y: y + 1}, {x: x, y: y + 1}, {x: x - 1, y: y + 2}];
     case 'E-W' :
       // XX
       //  XX
