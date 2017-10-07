@@ -1,7 +1,7 @@
 .game {
   top: 0px;
   display: flex;
-  position: absolute;
+  position: relative;
 }
 
 .area {
