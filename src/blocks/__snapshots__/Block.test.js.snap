@@ -81,8 +81,8 @@ exports[`Block Ell can rotate 2`] = `
     className="cell ell"
     style={
       Object {
-        "left": -25,
-        "top": 50,
+        "left": 0,
+        "top": 0,
       }
     }
   />
@@ -90,8 +90,8 @@ exports[`Block Ell can rotate 2`] = `
     className="cell ell"
     style={
       Object {
-        "left": 0,
-        "top": 50,
+        "left": 25,
+        "top": 0,
       }
     }
   />
@@ -121,8 +121,8 @@ exports[`Block Ell can rotate 3`] = `
     className="cell ell"
     style={
       Object {
-        "left": -25,
-        "top": 25,
+        "left": 0,
+        "top": 0,
       }
     }
   />
@@ -130,8 +130,8 @@ exports[`Block Ell can rotate 3`] = `
     className="cell ell"
     style={
       Object {
-        "left": -25,
-        "top": 50,
+        "left": 0,
+        "top": 25,
       }
     }
   />
@@ -162,15 +162,6 @@ exports[`Block Ell can rotate 4`] = `
     style={
       Object {
         "left": -25,
-        "top": 0,
-      }
-    }
-  />
-  <div
-    className="cell ell"
-    style={
-      Object {
-        "left": -25,
         "top": 25,
       }
     }
@@ -179,8 +170,8 @@ exports[`Block Ell can rotate 4`] = `
     className="cell ell"
     style={
       Object {
-        "left": -25,
-        "top": 50,
+        "left": 0,
+        "top": 25,
       }
     }
   />
@@ -188,8 +179,17 @@ exports[`Block Ell can rotate 4`] = `
     className="cell ell"
     style={
       Object {
-        "left": 0,
-        "top": 50,
+        "left": 25,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell ell"
+    style={
+      Object {
+        "left": 25,
+        "top": 0,
       }
     }
   />
@@ -308,6 +308,15 @@ exports[`Block Ess can rotate 2`] = `
     className="cell ess"
     style={
       Object {
+        "left": -25,
+        "top": 0,
+      }
+    }
+  />
+  <div
+    className="cell ess"
+    style={
+      Object {
         "left": 0,
         "top": 0,
       }
@@ -317,15 +326,6 @@ exports[`Block Ess can rotate 2`] = `
     className="cell ess"
     style={
       Object {
-        "left": -25,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell ess"
-    style={
-      Object {
         "left": 0,
         "top": 25,
       }
@@ -335,8 +335,8 @@ exports[`Block Ess can rotate 2`] = `
     className="cell ess"
     style={
       Object {
-        "left": -25,
-        "top": 50,
+        "left": 25,
+        "top": 25,
       }
     }
   />
@@ -455,8 +455,8 @@ exports[`Block Line can rotate 2`] = `
     className="cell line"
     style={
       Object {
-        "left": 0,
-        "top": 0,
+        "left": -25,
+        "top": 25,
       }
     }
   />
@@ -473,8 +473,8 @@ exports[`Block Line can rotate 2`] = `
     className="cell line"
     style={
       Object {
-        "left": 0,
-        "top": 50,
+        "left": 25,
+        "top": 25,
       }
     }
   />
@@ -482,8 +482,8 @@ exports[`Block Line can rotate 2`] = `
     className="cell line"
     style={
       Object {
-        "left": 0,
-        "top": 75,
+        "left": 50,
+        "top": 25,
       }
     }
   />
@@ -602,8 +602,17 @@ exports[`Block Rell can rotate 2`] = `
     className="cell rell"
     style={
       Object {
-        "left": 0,
+        "left": -25,
         "top": 0,
+      }
+    }
+  />
+  <div
+    className="cell rell"
+    style={
+      Object {
+        "left": -25,
+        "top": 25,
       }
     }
   />
@@ -620,17 +629,8 @@ exports[`Block Rell can rotate 2`] = `
     className="cell rell"
     style={
       Object {
-        "left": -25,
-        "top": 50,
-      }
-    }
-  />
-  <div
-    className="cell rell"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+        "left": 25,
+        "top": 25,
       }
     }
   />
@@ -651,8 +651,8 @@ exports[`Block Rell can rotate 3`] = `
     className="cell rell"
     style={
       Object {
-        "left": 0,
-        "top": 0,
+        "left": -25,
+        "top": -25,
       }
     }
   />
@@ -661,7 +661,7 @@ exports[`Block Rell can rotate 3`] = `
     style={
       Object {
         "left": 0,
-        "top": 25,
+        "top": -25,
       }
     }
   />
@@ -670,7 +670,7 @@ exports[`Block Rell can rotate 3`] = `
     style={
       Object {
         "left": -25,
-        "top": 50,
+        "top": 0,
       }
     }
   />
@@ -678,8 +678,8 @@ exports[`Block Rell can rotate 3`] = `
     className="cell rell"
     style={
       Object {
-        "left": 0,
-        "top": 50,
+        "left": -25,
+        "top": 25,
       }
     }
   />
@@ -700,7 +700,7 @@ exports[`Block Rell can rotate 4`] = `
     className="cell rell"
     style={
       Object {
-        "left": 0,
+        "left": -25,
         "top": 0,
       }
     }
@@ -710,25 +710,25 @@ exports[`Block Rell can rotate 4`] = `
     style={
       Object {
         "left": 0,
+        "top": 0,
+      }
+    }
+  />
+  <div
+    className="cell rell"
+    style={
+      Object {
+        "left": 25,
+        "top": 0,
+      }
+    }
+  />
+  <div
+    className="cell rell"
+    style={
+      Object {
+        "left": 25,
         "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell rell"
-    style={
-      Object {
-        "left": -25,
-        "top": 50,
-      }
-    }
-  />
-  <div
-    className="cell rell"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
       }
     }
   />
@@ -848,16 +848,7 @@ exports[`Block Ress can rotate 2`] = `
     style={
       Object {
         "left": -25,
-        "top": 0,
-      }
-    }
-  />
-  <div
-    className="cell ress"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+        "top": 50,
       }
     }
   />
@@ -876,6 +867,15 @@ exports[`Block Ress can rotate 2`] = `
       Object {
         "left": 0,
         "top": 50,
+      }
+    }
+  />
+  <div
+    className="cell ress"
+    style={
+      Object {
+        "left": 25,
+        "top": 25,
       }
     }
   />
@@ -994,24 +994,6 @@ exports[`Block Tee can rotate 2`] = `
     className="cell tee"
     style={
       Object {
-        "left": -25,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
         "left": 0,
         "top": 0,
       }
@@ -1021,8 +1003,26 @@ exports[`Block Tee can rotate 2`] = `
     className="cell tee"
     style={
       Object {
+        "left": 0,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
         "left": 25,
         "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
+        "left": 0,
+        "top": 50,
       }
     }
   />
@@ -1062,7 +1062,7 @@ exports[`Block Tee can rotate 3`] = `
     style={
       Object {
         "left": 0,
-        "top": 0,
+        "top": 50,
       }
     }
   />
@@ -1092,6 +1092,24 @@ exports[`Block Tee can rotate 4`] = `
     className="cell tee"
     style={
       Object {
+        "left": 0,
+        "top": 0,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
+        "left": 0,
+        "top": 25,
+      }
+    }
+  />
+  <div
+    className="cell tee"
+    style={
+      Object {
         "left": -25,
         "top": 25,
       }
@@ -1102,25 +1120,7 @@ exports[`Block Tee can rotate 4`] = `
     style={
       Object {
         "left": 0,
-        "top": 25,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 0,
-        "top": 0,
-      }
-    }
-  />
-  <div
-    className="cell tee"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+        "top": 50,
       }
     }
   />
