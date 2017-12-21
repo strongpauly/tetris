@@ -17,8 +17,7 @@ import {gameHeight} from './dimensions';
 /*eslint-env jest*/
 
 describe('<Game>', () => {
-
-
+  
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Game dispatch={jest.fn()}/>, div);
@@ -128,7 +127,7 @@ describe('<Game>', () => {
     expect(dispatch).toHaveBeenCalledWith(stopGame());
   });
 
-  it('will can be reset after game over by clicking on area', () => {
+  it('can be reset after game over by clicking on area', () => {
     jest.useFakeTimers();
     let collisionMap = collisionMapReducer(undefined, startGame());
     let score = scoreReducer(undefined, startGame());
