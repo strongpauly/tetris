@@ -22,6 +22,7 @@ describe('Block', () => {
   function triggerKeyEvent(reactWrapper, event) {
     //Not the best way to do this, but couldn't find a good example about how to mock the window event.
     reactWrapper.instance().onKeyDown(event);
+    reactWrapper.update();
   }
 
   it('can move left to bounds', () => {
@@ -101,7 +102,7 @@ describe('Block', () => {
     triggerKeyEvent(ell, {key:'ArrowLeft'});
     triggerKeyEvent(ell, {key:'ArrowUp'});
     expect(ell.state('orientation')).toEqual('E-W');
-    //Don't animate this.
+    // Don't animate this.
     expect(ell.find('.animated')).toHaveLength(0);
   });
 

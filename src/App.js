@@ -7,16 +7,17 @@ import Game from './Game';
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <div className="app">
-          <Game />
-        </div>
-      </Provider>
+        <Provider store={store}>
+          <div className="app">
+            <Game />
+            {/*<audio autoPlay loop>*/}
+              {/*<source src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg" type="audio/ogg"/>*/}
+            {/*</audio>*/}
+          </div>
+        </Provider>
     );
 
-    // <audio autoPlay loop>
-    //   <source src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg" type="audio/ogg"/>
-    // </audio>
+
   }
 }
 

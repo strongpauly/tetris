@@ -12,6 +12,7 @@ exports[`Block Ell can rotate 1`] = `
 >
   <div
     className="cell ell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -21,6 +22,7 @@ exports[`Block Ell can rotate 1`] = `
   />
   <div
     className="cell ell"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -30,6 +32,7 @@ exports[`Block Ell can rotate 1`] = `
   />
   <div
     className="cell ell"
+    key="2"
     style={
       Object {
         "left": -25,
@@ -39,6 +42,7 @@ exports[`Block Ell can rotate 1`] = `
   />
   <div
     className="cell ell"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -61,6 +65,7 @@ exports[`Block Ell can rotate 2`] = `
 >
   <div
     className="cell ell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -70,6 +75,7 @@ exports[`Block Ell can rotate 2`] = `
   />
   <div
     className="cell ell"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -79,6 +85,7 @@ exports[`Block Ell can rotate 2`] = `
   />
   <div
     className="cell ell"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -88,6 +95,7 @@ exports[`Block Ell can rotate 2`] = `
   />
   <div
     className="cell ell"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -110,6 +118,7 @@ exports[`Block Ell can rotate 3`] = `
 >
   <div
     className="cell ell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -119,6 +128,7 @@ exports[`Block Ell can rotate 3`] = `
   />
   <div
     className="cell ell"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -128,6 +138,7 @@ exports[`Block Ell can rotate 3`] = `
   />
   <div
     className="cell ell"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -137,6 +148,7 @@ exports[`Block Ell can rotate 3`] = `
   />
   <div
     className="cell ell"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -159,6 +171,7 @@ exports[`Block Ell can rotate 4`] = `
 >
   <div
     className="cell ell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -168,6 +181,7 @@ exports[`Block Ell can rotate 4`] = `
   />
   <div
     className="cell ell"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -177,6 +191,7 @@ exports[`Block Ell can rotate 4`] = `
   />
   <div
     className="cell ell"
+    key="2"
     style={
       Object {
         "left": 25,
@@ -186,6 +201,7 @@ exports[`Block Ell can rotate 4`] = `
   />
   <div
     className="cell ell"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -208,6 +224,7 @@ exports[`Block Ell can rotate 5`] = `
 >
   <div
     className="cell ell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -217,6 +234,7 @@ exports[`Block Ell can rotate 5`] = `
   />
   <div
     className="cell ell"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -226,6 +244,7 @@ exports[`Block Ell can rotate 5`] = `
   />
   <div
     className="cell ell"
+    key="2"
     style={
       Object {
         "left": -25,
@@ -235,6 +254,7 @@ exports[`Block Ell can rotate 5`] = `
   />
   <div
     className="cell ell"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -257,6 +277,7 @@ exports[`Block Ess can rotate 1`] = `
 >
   <div
     className="cell ess"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -266,6 +287,7 @@ exports[`Block Ess can rotate 1`] = `
   />
   <div
     className="cell ess"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -275,6 +297,7 @@ exports[`Block Ess can rotate 1`] = `
   />
   <div
     className="cell ess"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -284,6 +307,7 @@ exports[`Block Ess can rotate 1`] = `
   />
   <div
     className="cell ess"
+    key="3"
     style={
       Object {
         "left": -25,
@@ -306,6 +330,7 @@ exports[`Block Ess can rotate 2`] = `
 >
   <div
     className="cell ess"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -315,6 +340,7 @@ exports[`Block Ess can rotate 2`] = `
   />
   <div
     className="cell ess"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -324,6 +350,7 @@ exports[`Block Ess can rotate 2`] = `
   />
   <div
     className="cell ess"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -333,6 +360,7 @@ exports[`Block Ess can rotate 2`] = `
   />
   <div
     className="cell ess"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -355,6 +383,7 @@ exports[`Block Ess can rotate 3`] = `
 >
   <div
     className="cell ess"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -364,6 +393,7 @@ exports[`Block Ess can rotate 3`] = `
   />
   <div
     className="cell ess"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -373,6 +403,7 @@ exports[`Block Ess can rotate 3`] = `
   />
   <div
     className="cell ess"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -382,6 +413,7 @@ exports[`Block Ess can rotate 3`] = `
   />
   <div
     className="cell ess"
+    key="3"
     style={
       Object {
         "left": -25,
@@ -404,6 +436,7 @@ exports[`Block Line can rotate 1`] = `
 >
   <div
     className="cell line"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -413,6 +446,7 @@ exports[`Block Line can rotate 1`] = `
   />
   <div
     className="cell line"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -422,6 +456,7 @@ exports[`Block Line can rotate 1`] = `
   />
   <div
     className="cell line"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -431,6 +466,7 @@ exports[`Block Line can rotate 1`] = `
   />
   <div
     className="cell line"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -453,6 +489,7 @@ exports[`Block Line can rotate 2`] = `
 >
   <div
     className="cell line"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -462,6 +499,7 @@ exports[`Block Line can rotate 2`] = `
   />
   <div
     className="cell line"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -471,6 +509,7 @@ exports[`Block Line can rotate 2`] = `
   />
   <div
     className="cell line"
+    key="2"
     style={
       Object {
         "left": 25,
@@ -480,6 +519,7 @@ exports[`Block Line can rotate 2`] = `
   />
   <div
     className="cell line"
+    key="3"
     style={
       Object {
         "left": 50,
@@ -502,6 +542,7 @@ exports[`Block Line can rotate 3`] = `
 >
   <div
     className="cell line"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -511,6 +552,7 @@ exports[`Block Line can rotate 3`] = `
   />
   <div
     className="cell line"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -520,6 +562,7 @@ exports[`Block Line can rotate 3`] = `
   />
   <div
     className="cell line"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -529,6 +572,7 @@ exports[`Block Line can rotate 3`] = `
   />
   <div
     className="cell line"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -551,6 +595,7 @@ exports[`Block Rell can rotate 1`] = `
 >
   <div
     className="cell rell"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -560,6 +605,7 @@ exports[`Block Rell can rotate 1`] = `
   />
   <div
     className="cell rell"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -569,6 +615,7 @@ exports[`Block Rell can rotate 1`] = `
   />
   <div
     className="cell rell"
+    key="2"
     style={
       Object {
         "left": -25,
@@ -578,6 +625,7 @@ exports[`Block Rell can rotate 1`] = `
   />
   <div
     className="cell rell"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -600,6 +648,7 @@ exports[`Block Rell can rotate 2`] = `
 >
   <div
     className="cell rell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -609,6 +658,7 @@ exports[`Block Rell can rotate 2`] = `
   />
   <div
     className="cell rell"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -618,6 +668,7 @@ exports[`Block Rell can rotate 2`] = `
   />
   <div
     className="cell rell"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -627,6 +678,7 @@ exports[`Block Rell can rotate 2`] = `
   />
   <div
     className="cell rell"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -649,6 +701,7 @@ exports[`Block Rell can rotate 3`] = `
 >
   <div
     className="cell rell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -658,6 +711,7 @@ exports[`Block Rell can rotate 3`] = `
   />
   <div
     className="cell rell"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -667,6 +721,7 @@ exports[`Block Rell can rotate 3`] = `
   />
   <div
     className="cell rell"
+    key="2"
     style={
       Object {
         "left": -25,
@@ -676,6 +731,7 @@ exports[`Block Rell can rotate 3`] = `
   />
   <div
     className="cell rell"
+    key="3"
     style={
       Object {
         "left": -25,
@@ -698,6 +754,7 @@ exports[`Block Rell can rotate 4`] = `
 >
   <div
     className="cell rell"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -707,6 +764,7 @@ exports[`Block Rell can rotate 4`] = `
   />
   <div
     className="cell rell"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -716,6 +774,7 @@ exports[`Block Rell can rotate 4`] = `
   />
   <div
     className="cell rell"
+    key="2"
     style={
       Object {
         "left": 25,
@@ -725,6 +784,7 @@ exports[`Block Rell can rotate 4`] = `
   />
   <div
     className="cell rell"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -747,6 +807,7 @@ exports[`Block Rell can rotate 5`] = `
 >
   <div
     className="cell rell"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -756,6 +817,7 @@ exports[`Block Rell can rotate 5`] = `
   />
   <div
     className="cell rell"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -765,6 +827,7 @@ exports[`Block Rell can rotate 5`] = `
   />
   <div
     className="cell rell"
+    key="2"
     style={
       Object {
         "left": -25,
@@ -774,6 +837,7 @@ exports[`Block Rell can rotate 5`] = `
   />
   <div
     className="cell rell"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -796,6 +860,7 @@ exports[`Block Ress can rotate 1`] = `
 >
   <div
     className="cell ress"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -805,6 +870,7 @@ exports[`Block Ress can rotate 1`] = `
   />
   <div
     className="cell ress"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -814,6 +880,7 @@ exports[`Block Ress can rotate 1`] = `
   />
   <div
     className="cell ress"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -823,6 +890,7 @@ exports[`Block Ress can rotate 1`] = `
   />
   <div
     className="cell ress"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -845,6 +913,7 @@ exports[`Block Ress can rotate 2`] = `
 >
   <div
     className="cell ress"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -854,6 +923,7 @@ exports[`Block Ress can rotate 2`] = `
   />
   <div
     className="cell ress"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -863,6 +933,7 @@ exports[`Block Ress can rotate 2`] = `
   />
   <div
     className="cell ress"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -872,6 +943,7 @@ exports[`Block Ress can rotate 2`] = `
   />
   <div
     className="cell ress"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -894,6 +966,7 @@ exports[`Block Ress can rotate 3`] = `
 >
   <div
     className="cell ress"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -903,6 +976,7 @@ exports[`Block Ress can rotate 3`] = `
   />
   <div
     className="cell ress"
+    key="1"
     style={
       Object {
         "left": -25,
@@ -912,6 +986,7 @@ exports[`Block Ress can rotate 3`] = `
   />
   <div
     className="cell ress"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -921,6 +996,7 @@ exports[`Block Ress can rotate 3`] = `
   />
   <div
     className="cell ress"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -943,6 +1019,7 @@ exports[`Block Tee can rotate 1`] = `
 >
   <div
     className="cell tee"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -952,6 +1029,7 @@ exports[`Block Tee can rotate 1`] = `
   />
   <div
     className="cell tee"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -961,6 +1039,7 @@ exports[`Block Tee can rotate 1`] = `
   />
   <div
     className="cell tee"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -970,6 +1049,7 @@ exports[`Block Tee can rotate 1`] = `
   />
   <div
     className="cell tee"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -992,6 +1072,7 @@ exports[`Block Tee can rotate 2`] = `
 >
   <div
     className="cell tee"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -1001,6 +1082,7 @@ exports[`Block Tee can rotate 2`] = `
   />
   <div
     className="cell tee"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -1010,6 +1092,7 @@ exports[`Block Tee can rotate 2`] = `
   />
   <div
     className="cell tee"
+    key="2"
     style={
       Object {
         "left": 25,
@@ -1019,6 +1102,7 @@ exports[`Block Tee can rotate 2`] = `
   />
   <div
     className="cell tee"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -1041,6 +1125,7 @@ exports[`Block Tee can rotate 3`] = `
 >
   <div
     className="cell tee"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -1050,6 +1135,7 @@ exports[`Block Tee can rotate 3`] = `
   />
   <div
     className="cell tee"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -1059,6 +1145,7 @@ exports[`Block Tee can rotate 3`] = `
   />
   <div
     className="cell tee"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -1068,6 +1155,7 @@ exports[`Block Tee can rotate 3`] = `
   />
   <div
     className="cell tee"
+    key="3"
     style={
       Object {
         "left": 25,
@@ -1090,6 +1178,7 @@ exports[`Block Tee can rotate 4`] = `
 >
   <div
     className="cell tee"
+    key="0"
     style={
       Object {
         "left": 0,
@@ -1099,6 +1188,7 @@ exports[`Block Tee can rotate 4`] = `
   />
   <div
     className="cell tee"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -1108,6 +1198,7 @@ exports[`Block Tee can rotate 4`] = `
   />
   <div
     className="cell tee"
+    key="2"
     style={
       Object {
         "left": -25,
@@ -1117,6 +1208,7 @@ exports[`Block Tee can rotate 4`] = `
   />
   <div
     className="cell tee"
+    key="3"
     style={
       Object {
         "left": 0,
@@ -1139,6 +1231,7 @@ exports[`Block Tee can rotate 5`] = `
 >
   <div
     className="cell tee"
+    key="0"
     style={
       Object {
         "left": -25,
@@ -1148,6 +1241,7 @@ exports[`Block Tee can rotate 5`] = `
   />
   <div
     className="cell tee"
+    key="1"
     style={
       Object {
         "left": 0,
@@ -1157,6 +1251,7 @@ exports[`Block Tee can rotate 5`] = `
   />
   <div
     className="cell tee"
+    key="2"
     style={
       Object {
         "left": 0,
@@ -1166,6 +1261,7 @@ exports[`Block Tee can rotate 5`] = `
   />
   <div
     className="cell tee"
+    key="3"
     style={
       Object {
         "left": 25,
