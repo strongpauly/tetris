@@ -10,14 +10,9 @@ class App extends Component {
         <Provider store={store}>
           <div className="app">
             <Game />
-            {/*<audio autoPlay loop>*/}
-              {/*<source src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg" type="audio/ogg"/>*/}
-            {/*</audio>*/}
           </div>
         </Provider>
     );
-
-
   }
 }
 

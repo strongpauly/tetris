@@ -120,7 +120,16 @@ exports[`<Game> can be lost 1`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -176,9 +185,36 @@ exports[`<Game> can be lost 1`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -357,7 +393,16 @@ exports[`<Game> can be lost 2`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -413,9 +458,36 @@ exports[`<Game> can be lost 2`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -642,7 +714,16 @@ exports[`<Game> can be lost 3`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -698,9 +779,36 @@ exports[`<Game> can be lost 3`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -975,7 +1083,16 @@ exports[`<Game> can be lost 4`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -1031,9 +1148,36 @@ exports[`<Game> can be lost 4`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -1356,7 +1500,16 @@ exports[`<Game> can be lost 5`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -1412,9 +1565,36 @@ exports[`<Game> can be lost 5`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -1785,7 +1965,16 @@ exports[`<Game> can be lost 6`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -1841,9 +2030,36 @@ exports[`<Game> can be lost 6`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -1968,7 +2184,16 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -2024,9 +2249,36 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -2205,7 +2457,16 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -2261,9 +2522,36 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -2490,7 +2778,16 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -2546,9 +2843,36 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -2823,7 +3147,16 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -2879,9 +3212,36 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -3204,7 +3564,16 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -3260,9 +3629,36 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -3633,7 +4029,16 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -3689,9 +4094,36 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -3737,7 +4169,16 @@ exports[`<Game> renders a block 1`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -3747,9 +4188,36 @@ exports[`<Game> renders a block 1`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -3794,7 +4262,16 @@ exports[`<Game> renders all block types 1`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -3804,9 +4281,36 @@ exports[`<Game> renders all block types 1`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -3851,7 +4355,16 @@ exports[`<Game> renders all block types 2`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -3861,9 +4374,36 @@ exports[`<Game> renders all block types 2`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -3908,7 +4448,16 @@ exports[`<Game> renders all block types 3`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -3918,9 +4467,36 @@ exports[`<Game> renders all block types 3`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -3965,7 +4541,16 @@ exports[`<Game> renders all block types 4`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -3975,9 +4560,36 @@ exports[`<Game> renders all block types 4`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -4022,7 +4634,16 @@ exports[`<Game> renders all block types 5`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -4032,9 +4653,36 @@ exports[`<Game> renders all block types 5`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -4079,7 +4727,16 @@ exports[`<Game> renders all block types 6`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -4089,9 +4746,36 @@ exports[`<Game> renders all block types 6`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -4136,7 +4820,16 @@ exports[`<Game> renders all block types 7`] = `
           </td>
           <td />
         </tr>
-        <tr>
+        <tr
+          style={
+            Object {
+              "height": 100,
+              "position": "relative",
+              "top": -40,
+              "verticalAlign": "top",
+            }
+          }
+        >
           <td>
             Next
           </td>
@@ -4146,9 +4839,36 @@ exports[`<Game> renders all block types 7`] = `
             />
           </td>
         </tr>
+        <tr>
+          <td>
+            <label
+              htmlFor="muteSound"
+            >
+              Mute Sound
+            </label>
+          </td>
+          <td>
+            <input
+              checked={true}
+              name="muteSound"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <audio
+    autoPlay={true}
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+      type="audio/ogg"
+    />
+  </audio>
 </div>
 `;
 
@@ -4272,7 +4992,16 @@ exports[`<Game> will move blocks to the bottom 1`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -4328,9 +5057,36 @@ exports[`<Game> will move blocks to the bottom 1`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -4455,7 +5211,16 @@ exports[`<Game> will move blocks to the bottom 2`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -4511,9 +5276,36 @@ exports[`<Game> will move blocks to the bottom 2`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -5076,7 +5868,16 @@ exports[`<Game> will remove lines 1`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -5132,9 +5933,36 @@ exports[`<Game> will remove lines 1`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;
@@ -5745,7 +6573,16 @@ exports[`<Game> will remove lines 2`] = `
               0
             </td>
           </tr>
-          <tr>
+          <tr
+            style={
+              Object {
+                "height": 100,
+                "position": "relative",
+                "top": -40,
+                "verticalAlign": "top",
+              }
+            }
+          >
             <td>
               Next
             </td>
@@ -5801,9 +6638,36 @@ exports[`<Game> will remove lines 2`] = `
               </Block>
             </td>
           </tr>
+          <tr>
+            <td>
+              <label
+                htmlFor="muteSound"
+              >
+                Mute Sound
+              </label>
+            </td>
+            <td>
+              <input
+                checked={true}
+                name="muteSound"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <audio
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg"
+        type="audio/ogg"
+      />
+    </audio>
   </div>
 </Game>
 `;

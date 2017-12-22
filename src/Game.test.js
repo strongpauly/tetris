@@ -11,6 +11,7 @@ import stopGame from './state/actions/stopGame';
 
 import scoreReducer from './state/reducers/score';
 import collisionMapReducer from './state/reducers/collisionMap';
+import {sound} from './state/reducers/sound';
 
 import {gameHeight} from './dimensions';
 
@@ -172,5 +173,25 @@ describe('<Game>', () => {
     wrapper.find('.area').simulate('click');
     expect(dispatch).toHaveBeenCalledTimes(8);
     expect(dispatch).toHaveBeenCalledWith(startGame());
+  });
+
+  it('will mute and unmute sound when checkbox clicked', () => {
+    let wrapper;
+    let soundPlaying = false;
+    const dispatch = jest.fn((action) => {
+      if(action.type === 'MUTE_SOUND' || action.type === 'UNMUTE_SOUND') {
+        soundPlaying = sound(soundPlaying, action);
+        wrapper.setProps({sound:soundPlaying});
+      };
+    });
+    wrapper = shallow(<Game dispatch={dispatch} blocks={['LINE', 'LINE']} score={{}} collisionMap={{}} sound={soundPlaying}/>);
+    expect(wrapper.find('input[name="muteSound"]').length).toEqual(1);
+    expect(wrapper.find('audio').length).toEqual(1);
+    expect(wrapper.find('audio[muted=true]').length).toEqual(1);
+    wrapper.find('input[name="muteSound"]').simulate('change');
+    wrapper.update();
+    expect(wrapper.find('audio[muted=true]').length).toEqual(0);
+    wrapper.find('input[name="muteSound"]').simulate('change');
+    expect(wrapper.find('audio[muted=true]').length).toEqual(1);
   });
 });

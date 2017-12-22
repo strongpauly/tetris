@@ -22,6 +22,8 @@ import willCollide from './lib/willCollide';
 import PropTypes from 'prop-types';
 
 import {blockSize, gameWidth} from './dimensions';
+import {muteSound} from "./state/actions/muteSound";
+import {unmuteSound} from "./state/actions/unmuteSound";
 
 export class Game extends Component {
 
@@ -29,8 +31,9 @@ export class Game extends Component {
     dispatch: PropTypes.func,
     blocks: PropTypes.array,
     collisionMap: PropTypes.object,
-    score: PropTypes.object
-  }
+    score: PropTypes.object,
+    sound: PropTypes.bool
+  };
 
   constructor(props) {
     super(props);
@@ -39,7 +42,7 @@ export class Game extends Component {
 
   start = () => {
     this.props.dispatch(startGame());
-  }
+  };
 
   getBlockType(block) {
     // eslint-disable-next-line default-case
@@ -104,13 +107,20 @@ export class Game extends Component {
                 <td>Score</td>
                 <td>{this.props.score.score}</td>
               </tr>
-              <tr>
+              <tr style={{ height: 100, position: 'relative', top: -40, verticalAlign: 'top'}}>
                 <td>Next</td>
                 <td><NextBlock key={this.props.score.numBlocks + 1 /* Uniquely identify block to force redraw */}/></td>
+              </tr>
+              <tr>
+                <td><label htmlFor="muteSound">Mute Sound</label></td>
+                <td><input name="muteSound" type="checkbox" checked={!this.props.sound} onChange={this.onMuteChange}/></td>
               </tr>
             </tbody>
           </table>
         </div>
+        <audio autoPlay loop muted={!this.props.sound}>
+          <source src="https://archive.org/download/TetrisThemeMusic/Tetris.ogg" type="audio/ogg"/>
+        </audio>
       </div>
     );
   }
@@ -132,12 +142,16 @@ export class Game extends Component {
         line[x] = y;
       });
       const fullLines = lines.filter( line => line !== undefined && line.filter( cell => cell !== undefined).length === gameWidth);
-      if(fullLines.length > 0) {
+      if (fullLines.length > 0) {
         const lineNumbers = fullLines.map( line => line[0] );
         lineNumbers.sort((a, b) => a - b);
         this.props.dispatch(removeLines(lineNumbers));
       }
     }
+  };
+
+  onMuteChange = () => {
+    this.props.dispatch(this.props.sound ? muteSound() : unmuteSound());
   }
 }
 
@@ -145,8 +159,6 @@ export default connect((state, gameProps = {}) => {
   gameProps.score = state.score;
   gameProps.blocks = state.blocks;
   gameProps.collisionMap = state.collisionMap;
+  gameProps.sound = state.sound;
   return gameProps;
 })(Game);
-
-
-// connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])
