@@ -151,6 +151,18 @@ export default function(getCoordinates, orientations, cellClassName) {
       return moving;
     }
 
+    getCollideY() {
+      let collideY = this.state.y + 1;
+      let blockCoords = getCoordinates(this.state.x, collideY, this.state.orientation);
+      let bounds = this.getBounds(blockCoords);
+      while (!this.willCollide(blockCoords) && bounds.maxY < gameHeight) {
+        collideY++;
+        blockCoords = getCoordinates(this.state.x, collideY, this.state.orientation);
+        bounds = this.getBounds(blockCoords);
+      }
+      return collideY - 1;
+    }
+
     moveLeft () {
       let x = this.state.x - 1;
       let blockCoords = getCoordinates(x, this.state.y, this.state.orientation);
@@ -176,16 +188,27 @@ export default function(getCoordinates, orientations, cellClassName) {
     render() {
       const style = {};
       const className = 'block' + (this.state.animated ? ' animated' : '');
-      if(this.state.moving) {
+      const coords = getCoordinates(0, 0, this.state.orientation);
+      const elements = [];
+      if (this.state.moving) {
         style.left = this.state.x * blockSize;
         style.top = this.state.y * blockSize;
+        const collideY = this.getCollideY();
+        elements.push(<div key="shadow" className="shadow" style={{left: style.left, top: (collideY * blockSize)}}>
+        {
+          coords.map( (coord, index) =>
+            <div key={index} className={'cell'} style={{left:coord.x * blockSize, top: coord.y * blockSize}}/>
+          )
+        }
+        </div>);
       }
-      return (<div className={className} style={style}>{
-        getCoordinates(0, 0, this.state.orientation).map( (coord, index) =>
+      elements.push(<div key="block" className={className} style={style}>{
+        coords.map( (coord, index) =>
           <div key={index} className={'cell ' + cellClassName} style={{left:coord.x * blockSize, top: coord.y * blockSize}}/>
         )
       }
-      </div>);
+      </div>)
+      return <div>{elements}</div>
     }
   };
 }

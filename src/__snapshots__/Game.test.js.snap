@@ -38,55 +38,109 @@ exports[`<Game> can be lost 1`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 400,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
       </div>
@@ -137,50 +191,53 @@ exports[`<Game> can be lost 1`] = `
               <Block
                 key="1"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -271,55 +328,109 @@ exports[`<Game> can be lost 2`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 300,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -410,50 +521,53 @@ exports[`<Game> can be lost 2`] = `
               <Block
                 key="2"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -552,55 +666,109 @@ exports[`<Game> can be lost 3`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 200,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -731,50 +899,53 @@ exports[`<Game> can be lost 3`] = `
               <Block
                 key="3"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -881,55 +1052,109 @@ exports[`<Game> can be lost 4`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 100,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -1100,50 +1325,53 @@ exports[`<Game> can be lost 4`] = `
               <Block
                 key="4"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -1258,55 +1486,109 @@ exports[`<Game> can be lost 5`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
             <div
-              className="cell line"
-              key="1"
+              className="block animated"
+              key="block"
               style={
                 Object {
-                  "left": 0,
-                  "top": 25,
+                  "left": 125,
+                  "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -1517,50 +1799,53 @@ exports[`<Game> can be lost 5`] = `
               <Block
                 key="5"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -1683,55 +1968,109 @@ exports[`<Game> can be lost 6`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
             <div
-              className="cell line"
-              key="1"
+              className="block animated"
+              key="block"
               style={
                 Object {
-                  "left": 0,
-                  "top": 25,
+                  "left": 125,
+                  "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -1982,50 +2321,53 @@ exports[`<Game> can be lost 6`] = `
               <Block
                 key="6"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -2102,55 +2444,109 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 400,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
       </div>
@@ -2201,50 +2597,53 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
               <Block
                 key="1"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -2335,55 +2734,109 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 300,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -2474,50 +2927,53 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
               <Block
                 key="2"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -2616,55 +3072,109 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 200,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -2795,50 +3305,53 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
               <Block
                 key="3"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -2945,55 +3458,109 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 100,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -3164,50 +3731,53 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
               <Block
                 key="4"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -3322,55 +3892,109 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
             <div
-              className="cell line"
-              key="1"
+              className="block animated"
+              key="block"
               style={
                 Object {
-                  "left": 0,
-                  "top": 25,
+                  "left": 125,
+                  "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -3581,50 +4205,53 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
               <Block
                 key="5"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -3747,55 +4374,109 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
             <div
-              className="cell line"
-              key="1"
+              className="block animated"
+              key="block"
               style={
                 Object {
-                  "left": 0,
-                  "top": 25,
+                  "left": 125,
+                  "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -4046,50 +4727,53 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
               <Block
                 key="6"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -4910,55 +5594,109 @@ exports[`<Game> will move blocks to the bottom 1`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 400,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
       </div>
@@ -5009,50 +5747,53 @@ exports[`<Game> will move blocks to the bottom 1`] = `
               <Block
                 key="1"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -5129,55 +5870,109 @@ exports[`<Game> will move blocks to the bottom 2`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 400,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
       </div>
@@ -5228,50 +6023,53 @@ exports[`<Game> will move blocks to the bottom 2`] = `
               <Block
                 key="1"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -5426,55 +6224,109 @@ exports[`<Game> will remove lines 1`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 0,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
+                  "left": 125,
+                  "top": 400,
+                }
+              }
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="block animated"
+              key="block"
+              style={
+                Object {
+                  "left": 125,
                   "top": 0,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="1"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 25,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -5885,50 +6737,53 @@ exports[`<Game> will remove lines 1`] = `
               <Block
                 key="1"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>
@@ -6091,55 +6946,109 @@ exports[`<Game> will remove lines 2`] = `
           moving={true}
           onStopMoving={[Function]}
         >
-          <div
-            className="block animated"
-            style={
-              Object {
-                "left": 125,
-                "top": 400,
-              }
-            }
-          >
+          <div>
             <div
-              className="cell line"
-              key="0"
+              className="shadow"
+              key="shadow"
               style={
                 Object {
-                  "left": 0,
-                  "top": 0,
+                  "left": 125,
+                  "top": 400,
                 }
               }
-            />
+            >
+              <div
+                className="cell"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
             <div
-              className="cell line"
-              key="1"
+              className="block animated"
+              key="block"
               style={
                 Object {
-                  "left": 0,
-                  "top": 25,
+                  "left": 125,
+                  "top": 400,
                 }
               }
-            />
-            <div
-              className="cell line"
-              key="2"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 50,
+            >
+              <div
+                className="cell line"
+                key="0"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 0,
+                  }
                 }
-              }
-            />
-            <div
-              className="cell line"
-              key="3"
-              style={
-                Object {
-                  "left": 0,
-                  "top": 75,
+              />
+              <div
+                className="cell line"
+                key="1"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 25,
+                  }
                 }
-              }
-            />
+              />
+              <div
+                className="cell line"
+                key="2"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 50,
+                  }
+                }
+              />
+              <div
+                className="cell line"
+                key="3"
+                style={
+                  Object {
+                    "left": 0,
+                    "top": 75,
+                  }
+                }
+              />
+            </div>
           </div>
         </Block>
         <div
@@ -6590,50 +7499,53 @@ exports[`<Game> will remove lines 2`] = `
               <Block
                 key="1"
               >
-                <div
-                  className="block animated"
-                  style={Object {}}
-                >
+                <div>
                   <div
-                    className="cell line"
-                    key="0"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 0,
+                    className="block animated"
+                    key="block"
+                    style={Object {}}
+                  >
+                    <div
+                      className="cell line"
+                      key="0"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 0,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="1"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 25,
+                    />
+                    <div
+                      className="cell line"
+                      key="1"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 25,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="2"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 50,
+                    />
+                    <div
+                      className="cell line"
+                      key="2"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 50,
+                        }
                       }
-                    }
-                  />
-                  <div
-                    className="cell line"
-                    key="3"
-                    style={
-                      Object {
-                        "left": 0,
-                        "top": 75,
+                    />
+                    <div
+                      className="cell line"
+                      key="3"
+                      style={
+                        Object {
+                          "left": 0,
+                          "top": 75,
+                        }
                       }
-                    }
-                  />
+                    />
+                  </div>
                 </div>
               </Block>
             </td>

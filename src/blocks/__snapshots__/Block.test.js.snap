@@ -1,1273 +1,2569 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Block Ell can rotate 1`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ell"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell ell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="2"
-    style={
-      Object {
-        "left": -25,
-        "top": 50,
+    />
+    <div
+      className="cell ell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell ell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ell can rotate 2`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 450,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 0,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ell"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell ell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 0,
+    />
+    <div
+      className="cell ell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 0,
+    />
+    <div
+      className="cell ell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 0,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ell can rotate 3`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ell"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 0,
+  >
+    <div
+      className="cell ell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+    />
+    <div
+      className="cell ell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell ell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ell can rotate 4`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
-        "top": 25,
+        "left": 125,
+        "top": 450,
       }
     }
-  />
-  <div
-    className="cell ell"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="2"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 0,
+        }
+      }
+    />
+  </div>
   <div
-    className="cell ell"
-    key="3"
+    className="block animated"
+    key="block"
     style={
       Object {
-        "left": 25,
+        "left": 125,
         "top": 0,
       }
     }
-  />
+  >
+    <div
+      className="cell ell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell ell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell ell"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell ell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 0,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ell can rotate 5`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ell"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell ell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="2"
-    style={
-      Object {
-        "left": -25,
-        "top": 50,
+    />
+    <div
+      className="cell ell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ell"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell ell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ess can rotate 1`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ess"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ess"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell ess"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ess"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+    />
+    <div
+      className="cell ess"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ess"
-    key="3"
-    style={
-      Object {
-        "left": -25,
-        "top": 50,
+    />
+    <div
+      className="cell ess"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ess"
+      key="3"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ess can rotate 2`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ess"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 450,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ess"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 0,
+  >
+    <div
+      className="cell ess"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ess"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+    />
+    <div
+      className="cell ess"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ess"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+    />
+    <div
+      className="cell ess"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ess"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ess can rotate 3`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ess"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ess"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell ess"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ess"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+    />
+    <div
+      className="cell ess"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ess"
-    key="3"
-    style={
-      Object {
-        "left": -25,
-        "top": 50,
+    />
+    <div
+      className="cell ess"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ess"
+      key="3"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Line can rotate 1`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell line"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 125,
+        "top": 400,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 75,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell line"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell line"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell line"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell line"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell line"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 75,
+    />
+    <div
+      className="cell line"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell line"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 75,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Line can rotate 2`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell line"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
-        "top": 25,
+        "left": 125,
+        "top": 450,
       }
     }
-  />
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 50,
+          "top": 25,
+        }
+      }
+    />
+  </div>
   <div
-    className="cell line"
-    key="1"
+    className="block animated"
+    key="block"
     style={
       Object {
-        "left": 0,
-        "top": 25,
+        "left": 125,
+        "top": 0,
       }
     }
-  />
-  <div
-    className="cell line"
-    key="2"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+  >
+    <div
+      className="cell line"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell line"
-    key="3"
-    style={
-      Object {
-        "left": 50,
-        "top": 25,
+    />
+    <div
+      className="cell line"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell line"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell line"
+      key="3"
+      style={
+        Object {
+          "left": 50,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Line can rotate 3`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell line"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 125,
+        "top": 400,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 75,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell line"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell line"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell line"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell line"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell line"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 75,
+    />
+    <div
+      className="cell line"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell line"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 75,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Rell can rotate 1`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell rell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell rell"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell rell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="2"
-    style={
-      Object {
-        "left": -25,
-        "top": 50,
+    />
+    <div
+      className="cell rell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell rell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell rell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Rell can rotate 2`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell rell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 450,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell rell"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell rell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+    />
+    <div
+      className="cell rell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+    />
+    <div
+      className="cell rell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell rell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Rell can rotate 3`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell rell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
-        "top": -25,
+        "left": 125,
+        "top": 450,
       }
     }
-  />
-  <div
-    className="cell rell"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": -25,
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": -25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": -25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
   <div
-    className="cell rell"
-    key="2"
+    className="block animated"
+    key="block"
     style={
       Object {
-        "left": -25,
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell rell"
-    key="3"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell rell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": -25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell rell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": -25,
+        }
+      }
+    />
+    <div
+      className="cell rell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell rell"
+      key="3"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Rell can rotate 4`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell rell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 450,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell rell"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 0,
+  >
+    <div
+      className="cell rell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="2"
-    style={
-      Object {
-        "left": 25,
-        "top": 0,
+    />
+    <div
+      className="cell rell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+    />
+    <div
+      className="cell rell"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 0,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell rell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Rell can rotate 5`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell rell"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell rell"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell rell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="2"
-    style={
-      Object {
-        "left": -25,
-        "top": 50,
+    />
+    <div
+      className="cell rell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell rell"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell rell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell rell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ress can rotate 1`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ress"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ress"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell ress"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ress"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+    />
+    <div
+      className="cell ress"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ress"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell ress"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ress"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ress can rotate 2`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ress"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
-        "top": 50,
+        "left": 125,
+        "top": 425,
       }
     }
-  />
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
   <div
-    className="cell ress"
-    key="1"
+    className="block animated"
+    key="block"
     style={
       Object {
-        "left": 0,
-        "top": 25,
+        "left": 125,
+        "top": 0,
       }
     }
-  />
-  <div
-    className="cell ress"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+  >
+    <div
+      className="cell ress"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 50,
+        }
       }
-    }
-  />
-  <div
-    className="cell ress"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+    />
+    <div
+      className="cell ress"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ress"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell ress"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Ress can rotate 3`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 125,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell ress"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
+        "left": 125,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 125,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell ress"
-    key="1"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+  >
+    <div
+      className="cell ress"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell ress"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+    />
+    <div
+      className="cell ress"
+      key="1"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell ress"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell ress"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell ress"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Tee can rotate 1`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 100,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell tee"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
-        "top": 25,
+        "left": 100,
+        "top": 450,
       }
     }
-  />
-  <div
-    className="cell tee"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
   <div
-    className="cell tee"
-    key="2"
+    className="block animated"
+    key="block"
     style={
       Object {
-        "left": 0,
+        "left": 100,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell tee"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+  >
+    <div
+      className="cell tee"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell tee"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell tee"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell tee"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Tee can rotate 2`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 100,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell tee"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 100,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 100,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell tee"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell tee"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell tee"
-    key="2"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+    />
+    <div
+      className="cell tee"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell tee"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell tee"
+      key="2"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell tee"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Tee can rotate 3`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 100,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell tee"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
-        "top": 25,
+        "left": 100,
+        "top": 425,
       }
     }
-  />
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
   <div
-    className="cell tee"
-    key="1"
+    className="block animated"
+    key="block"
     style={
       Object {
-        "left": 0,
-        "top": 25,
+        "left": 100,
+        "top": 0,
       }
     }
-  />
-  <div
-    className="cell tee"
-    key="2"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+  >
+    <div
+      className="cell tee"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell tee"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+    />
+    <div
+      className="cell tee"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell tee"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+    <div
+      className="cell tee"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Tee can rotate 4`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 100,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell tee"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": 0,
+        "left": 100,
+        "top": 425,
+      }
+    }
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
+  <div
+    className="block animated"
+    key="block"
+    style={
+      Object {
+        "left": 100,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell tee"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell tee"
+      key="0"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
       }
-    }
-  />
-  <div
-    className="cell tee"
-    key="2"
-    style={
-      Object {
-        "left": -25,
-        "top": 25,
+    />
+    <div
+      className="cell tee"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
       }
-    }
-  />
-  <div
-    className="cell tee"
-    key="3"
-    style={
-      Object {
-        "left": 0,
-        "top": 50,
+    />
+    <div
+      className="cell tee"
+      key="2"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell tee"
+      key="3"
+      style={
+        Object {
+          "left": 0,
+          "top": 50,
+        }
+      }
+    />
+  </div>
 </div>
 `;
 
 exports[`Block Tee can rotate 5`] = `
-<div
-  className="block animated"
-  style={
-    Object {
-      "left": 100,
-      "top": 0,
-    }
-  }
->
+<div>
   <div
-    className="cell tee"
-    key="0"
+    className="shadow"
+    key="shadow"
     style={
       Object {
-        "left": -25,
-        "top": 25,
+        "left": 100,
+        "top": 450,
       }
     }
-  />
-  <div
-    className="cell tee"
-    key="1"
-    style={
-      Object {
-        "left": 0,
-        "top": 25,
+  >
+    <div
+      className="cell"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
   <div
-    className="cell tee"
-    key="2"
+    className="block animated"
+    key="block"
     style={
       Object {
-        "left": 0,
+        "left": 100,
         "top": 0,
       }
     }
-  />
-  <div
-    className="cell tee"
-    key="3"
-    style={
-      Object {
-        "left": 25,
-        "top": 25,
+  >
+    <div
+      className="cell tee"
+      key="0"
+      style={
+        Object {
+          "left": -25,
+          "top": 25,
+        }
       }
-    }
-  />
+    />
+    <div
+      className="cell tee"
+      key="1"
+      style={
+        Object {
+          "left": 0,
+          "top": 25,
+        }
+      }
+    />
+    <div
+      className="cell tee"
+      key="2"
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    />
+    <div
+      className="cell tee"
+      key="3"
+      style={
+        Object {
+          "left": 25,
+          "top": 25,
+        }
+      }
+    />
+  </div>
 </div>
 `;
