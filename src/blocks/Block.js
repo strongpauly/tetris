@@ -197,7 +197,7 @@ export default function(getCoordinates, orientations, cellClassName) {
         elements.push(<div key="shadow" className="shadow" style={{left: style.left, top: (collideY * blockSize)}}>
         {
           coords.map( (coord, index) =>
-            <div key={index} className={'cell'} style={{left:coord.x * blockSize, top: coord.y * blockSize}}/>
+            <div key={index} className={'cell ' + cellClassName} style={{left:coord.x * blockSize, top: coord.y * blockSize}}/>
           )
         }
         </div>);

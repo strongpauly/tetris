@@ -22,6 +22,67 @@
 
 .shadow .cell {
   opacity: 0.5;
-  border-color: black;
-  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  background: transparent !important;
+}
+
+.cell {
+  background-color: #bbb;
+}
+
+.square.cell {
+  background-color: #f11;
+}
+
+.shadow .square {
+  border-color: #f11;
+}
+
+.line.cell {
+  background-color: #1f1;
+}
+
+.shadow .line {
+  border-color: #1f1;
+}
+
+.ell.cell {
+  background-color: #11f;
+}
+
+.shadow .ell {
+  border-color: #11f;
+}
+
+.rell.cell {
+  background-color: #1ff;
+}
+
+.shadow .rell {
+  border-color: #1ff;
+}
+
+.ress.cell {
+  background-color: #f1f;
+}
+
+.shadow .ress {
+  border-color: #f1f;
+}
+
+.ess.cell {
+  background-color: #ff1;
+}
+
+.shadow .ess {
+  border-color: #ff1;
+}
+
+.tee.cell {
+  background-color: #cc1;
+}
+
+.shadow .tee {
+  border-color: #cc1;
 }

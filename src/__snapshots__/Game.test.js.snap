@@ -50,7 +50,7 @@ exports[`<Game> can be lost 1`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -60,7 +60,7 @@ exports[`<Game> can be lost 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -70,7 +70,7 @@ exports[`<Game> can be lost 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -80,7 +80,7 @@ exports[`<Game> can be lost 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -340,7 +340,7 @@ exports[`<Game> can be lost 2`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -350,7 +350,7 @@ exports[`<Game> can be lost 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -360,7 +360,7 @@ exports[`<Game> can be lost 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -370,7 +370,7 @@ exports[`<Game> can be lost 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -678,7 +678,7 @@ exports[`<Game> can be lost 3`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -688,7 +688,7 @@ exports[`<Game> can be lost 3`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -698,7 +698,7 @@ exports[`<Game> can be lost 3`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -708,7 +708,7 @@ exports[`<Game> can be lost 3`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -1064,7 +1064,7 @@ exports[`<Game> can be lost 4`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -1074,7 +1074,7 @@ exports[`<Game> can be lost 4`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -1084,7 +1084,7 @@ exports[`<Game> can be lost 4`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -1094,7 +1094,7 @@ exports[`<Game> can be lost 4`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -1498,7 +1498,7 @@ exports[`<Game> can be lost 5`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -1508,7 +1508,7 @@ exports[`<Game> can be lost 5`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -1518,7 +1518,7 @@ exports[`<Game> can be lost 5`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -1528,7 +1528,7 @@ exports[`<Game> can be lost 5`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -1980,7 +1980,7 @@ exports[`<Game> can be lost 6`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -1990,7 +1990,7 @@ exports[`<Game> can be lost 6`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -2000,7 +2000,7 @@ exports[`<Game> can be lost 6`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -2010,7 +2010,7 @@ exports[`<Game> can be lost 6`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -2456,7 +2456,7 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -2466,7 +2466,7 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -2476,7 +2476,7 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -2486,7 +2486,7 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -2746,7 +2746,7 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -2756,7 +2756,7 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -2766,7 +2766,7 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -2776,7 +2776,7 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -3084,7 +3084,7 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -3094,7 +3094,7 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -3104,7 +3104,7 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -3114,7 +3114,7 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -3470,7 +3470,7 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -3480,7 +3480,7 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -3490,7 +3490,7 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -3500,7 +3500,7 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -3904,7 +3904,7 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -3914,7 +3914,7 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -3924,7 +3924,7 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -3934,7 +3934,7 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -4386,7 +4386,7 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -4396,7 +4396,7 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -4406,7 +4406,7 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -4416,7 +4416,7 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -5606,7 +5606,7 @@ exports[`<Game> will move blocks to the bottom 1`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -5616,7 +5616,7 @@ exports[`<Game> will move blocks to the bottom 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -5626,7 +5626,7 @@ exports[`<Game> will move blocks to the bottom 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -5636,7 +5636,7 @@ exports[`<Game> will move blocks to the bottom 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -5882,7 +5882,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -5892,7 +5892,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -5902,7 +5902,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -5912,7 +5912,7 @@ exports[`<Game> will move blocks to the bottom 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -6236,7 +6236,7 @@ exports[`<Game> will remove lines 1`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -6246,7 +6246,7 @@ exports[`<Game> will remove lines 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -6256,7 +6256,7 @@ exports[`<Game> will remove lines 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -6266,7 +6266,7 @@ exports[`<Game> will remove lines 1`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
@@ -6958,7 +6958,7 @@ exports[`<Game> will remove lines 2`] = `
               }
             >
               <div
-                className="cell"
+                className="cell line"
                 key="0"
                 style={
                   Object {
@@ -6968,7 +6968,7 @@ exports[`<Game> will remove lines 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="1"
                 style={
                   Object {
@@ -6978,7 +6978,7 @@ exports[`<Game> will remove lines 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="2"
                 style={
                   Object {
@@ -6988,7 +6988,7 @@ exports[`<Game> will remove lines 2`] = `
                 }
               />
               <div
-                className="cell"
+                className="cell line"
                 key="3"
                 style={
                   Object {
