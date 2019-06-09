@@ -9,7 +9,23 @@ exports[`<Game> can be lost 1`] = `
     ]
   }
   collisionMap={Object {}}
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -292,7 +308,54 @@ exports[`<Game> can be lost 2`] = `
       "5,19": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -626,7 +689,85 @@ exports[`<Game> can be lost 3`] = `
       "5,19": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -1008,7 +1149,116 @@ exports[`<Game> can be lost 4`] = `
       "5,9": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 8,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 9,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 10,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 11,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -1438,7 +1688,147 @@ exports[`<Game> can be lost 5`] = `
       "5,9": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 8,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 9,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 10,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 11,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 4,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 5,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 6,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 7,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -1916,7 +2306,178 @@ exports[`<Game> can be lost 6`] = `
       "5,9": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 8,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 9,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 10,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 11,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 4,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 5,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 6,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 7,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 0,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 1,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 2,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 3,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -2415,7 +2976,23 @@ exports[`<Game> can be reset after game over by clicking on area 1`] = `
     ]
   }
   collisionMap={Object {}}
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -2698,7 +3275,54 @@ exports[`<Game> can be reset after game over by clicking on area 2`] = `
       "5,19": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -3032,7 +3656,85 @@ exports[`<Game> can be reset after game over by clicking on area 3`] = `
       "5,19": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -3414,7 +4116,116 @@ exports[`<Game> can be reset after game over by clicking on area 4`] = `
       "5,9": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 8,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 9,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 10,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 11,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -3844,7 +4655,147 @@ exports[`<Game> can be reset after game over by clicking on area 5`] = `
       "5,9": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 8,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 9,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 10,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 11,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 4,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 5,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 6,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 7,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -4322,7 +5273,178 @@ exports[`<Game> can be reset after game over by clicking on area 6`] = `
       "5,9": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 12,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 13,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 14,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 15,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 8,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 9,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 10,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 11,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 4,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 5,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 6,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 7,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 0,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 1,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 2,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 3,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -5565,7 +6687,23 @@ exports[`<Game> will move blocks to the bottom 1`] = `
     ]
   }
   collisionMap={Object {}}
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -5841,7 +6979,54 @@ exports[`<Game> will move blocks to the bottom 2`] = `
     ]
   }
   collisionMap={Object {}}
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -6156,7 +7341,23 @@ exports[`<Game> will remove lines 1`] = `
       "9,19": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
@@ -6874,7 +8075,69 @@ exports[`<Game> will remove lines 2`] = `
       "9,19": "line",
     }
   }
-  dispatch={[Function]}
+  dispatch={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "type": "START",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 16,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 17,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 18,
+              },
+              Object {
+                "className": "line",
+                "x": 5,
+                "y": 19,
+              },
+            ],
+            "type": "BLOCK_STOP",
+          },
+        ],
+        Array [
+          Object {
+            "payload": Array [
+              16,
+              17,
+              18,
+              19,
+            ],
+            "type": "REMOVE_LINES",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
   score={
     Object {
       "gameOver": false,
