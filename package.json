@@ -24,7 +24,8 @@
     "test": "react-scripts test --env=jsdom",
     "coverage": "react-scripts test --env=jsdom --coverage",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "infrastructure": "terraform init ./infrastructure && terraform plan -out terraform.plan ./infrastructure && terraform apply terraform.plan"
   },
   "jest": {
     "collectCoverageFrom": [
